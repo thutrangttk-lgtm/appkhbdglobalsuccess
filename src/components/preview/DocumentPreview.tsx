@@ -56,8 +56,20 @@ export const DocumentPreview: React.FC<DocumentPreviewProps> = ({ plan }) => {
 
           <p className="font-bold italic text-[13pt] pl-4 mt-2">b. Language Skills:</p>
           <p className="pl-8 text-[13pt]">
-            Listening, Speaking, Reading, and Writing integrated. Thereby contributing to the development of pupils' general competences and qualities such as autonomy, communication and cooperation.
+            Listening, Speaking, Reading, and Writing integrated.
           </p>
+
+          <p className="font-bold italic text-[13pt] pl-4 mt-2">c. Competences and Qualities:</p>
+          <p className="pl-8 text-[13pt]">
+            Thereby contributing to the development of pupils' general competences and qualities such as autonomy, communication and cooperation.
+          </p>
+          {plan.objectives.generalCompetencesAndQualities && plan.objectives.generalCompetencesAndQualities.length > 0 && (
+            <ul className="pl-12 text-[13pt] list-disc space-y-1 mt-1">
+              {plan.objectives.generalCompetencesAndQualities.map((item, idx) => (
+                <li key={idx}>{item}</li>
+              ))}
+            </ul>
+          )}
 
           {plan.objectives.integrations && plan.objectives.integrations.length > 0 && (
             <div className="mt-3">
