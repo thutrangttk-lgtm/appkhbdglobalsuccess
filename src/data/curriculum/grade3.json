@@ -1,0 +1,152 @@
+{
+  "grade": 3,
+  "totalWeeks": 35,
+  "totalPeriods": 140,
+  "source": "PPCT Tiếng Anh Lớp 3 Global Success 2026-2027",
+  "sourceFile": "/raw-documents/1_curriculum_ppct_global_success_2026_2027.md",
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "Hello",
+      "weeks": [1, 2],
+      "lessons": [
+        {
+          "grade": 3, "week": 1, "period": 3, "unit": 1, "unitTitle": "Hello", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say; Let's talk", "duration": 35,
+          "vocabulary": [{ "word": "hello", "pronunciation": "/həˈləʊ/", "meaning": "xin chào" }, { "word": "hi", "pronunciation": "/haɪ/", "meaning": "chào" }],
+          "sentencePatterns": [{ "pattern": "Hello, I'm [Name].", "example": "Hello, I'm Ben." }],
+          "languageSkills": ["Greetings", "Self-introductions"],
+          "objectives": ["Greet friends with Hello/Hi.", "Introduce name with 'I'm...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "3.A1.MR1", "name": "Trợ lý ảo hỗ trợ phát âm âm /b/", "description": "Sử dụng trợ lý ảo hỗ trợ phát âm âm /b/ (book, bike).", "source": "Decision 2422/QĐ-BGDĐT" }]
+        },
+        {
+          "grade": 3, "week": 2, "period": 7, "unit": 1, "unitTitle": "Hello", "lesson": 2, "lessonPart": "Lesson 2", "title": "Lesson 2 - Look, listen and repeat; Point and say; Let's talk", "duration": 35,
+          "vocabulary": [{ "word": "bye", "pronunciation": "/baɪ/", "meaning": "tạm biệt" }, { "word": "fine", "pronunciation": "/faɪn/", "meaning": "khỏe" }, { "word": "goodbye", "pronunciation": "/ˌɡʊdˈbaɪ/", "meaning": "tạm biệt" }],
+          "sentencePatterns": [{ "pattern": "How are you? - I'm fine, thank you.", "example": "How are you? - I'm fine, thank you." }],
+          "languageSkills": ["Asking health & saying goodbye"],
+          "objectives": ["Ask 'How are you?'", "Say goodbye."],
+          "integrations": [{ "type": "AI Literacy", "code": "3.C5.4", "name": "AI nhận diện hình ảnh chào hỏi", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'bye', 'fine', 'goodbye', 'hello'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "unitTitle": "Our names",
+      "weeks": [3, 4],
+      "lessons": [
+        {
+          "grade": 3, "week": 4, "period": 15, "unit": 2, "unitTitle": "Our names", "lesson": 3, "lessonPart": "Lesson 3", "title": "Lesson 3 - Listen and chant; Read and complete", "duration": 35,
+          "vocabulary": [{ "word": "name", "pronunciation": "/neɪm/", "meaning": "Tên" }, { "word": "old", "pronunciation": "/əʊld/", "meaning": "Tuổi" }],
+          "sentencePatterns": [{ "pattern": "What's your name? - My name's [Name].", "example": "What's your name? - My name's Mai." }],
+          "languageSkills": ["Asking & telling names & ages"],
+          "objectives": ["Ask 'What's your name?'", "State age with 'I'm [X] years old'."],
+          "integrations": [{ "type": "AI Literacy", "code": "3.A1.MR1", "name": "Trợ lý AI phát âm name & old", "description": "Dùng công cụ AI hỗ trợ nghe và luyện phát âm 'name', 'old'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "unitTitle": "Our bodies",
+      "weeks": [7],
+      "lessons": [
+        {
+          "grade": 3, "week": 7, "period": 23, "unit": 4, "unitTitle": "Our bodies", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "ear", "pronunciation": "/ɪər/", "meaning": "Tai" }, { "word": "eye", "pronunciation": "/aɪ/", "meaning": "Mắt" }, { "word": "face", "pronunciation": "/feɪs/", "meaning": "Khuôn mặt" }, { "word": "hand", "pronunciation": "/hænd/", "meaning": "Bàn tay" }],
+          "sentencePatterns": [{ "pattern": "Touch your [Body Part].", "example": "Touch your face." }],
+          "languageSkills": ["Body parts vocabulary"],
+          "objectives": ["Identify ear, eye, face, hand.", "Execute body commands."],
+          "integrations": [{ "type": "AI Literacy", "code": "3.A1.MR1", "name": "AI hỗ trợ nhận biết bộ phận cơ thể", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'ear', 'eye', 'face', 'hand'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "unitTitle": "My hobbies",
+      "weeks": [8, 9],
+      "lessons": [
+        {
+          "grade": 3, "week": 8, "period": 29, "unit": 5, "unitTitle": "My hobbies", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "dancing", "pronunciation": "/ˈdɑːn.sɪŋ/", "meaning": "Múa, nhảy" }, { "word": "drawing", "pronunciation": "/ˈdrɔː.ɪŋ/", "meaning": "Vẽ" }, { "word": "singing", "pronunciation": "/ˈsɪŋ.ɪŋ/", "meaning": "Hát" }, { "word": "swimming", "pronunciation": "/ˈswɪm.ɪŋ/", "meaning": "Bơi" }],
+          "sentencePatterns": [{ "pattern": "My hobby is [Activity].", "example": "My hobby is singing." }],
+          "languageSkills": ["Hobbies & activities"],
+          "objectives": ["Identify dancing, drawing, singing, swimming.", "State personal hobbies."],
+          "integrations": [{ "type": "AI Literacy", "code": "3.C5.4", "name": "AI nhận diện sở thích học máy", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'dancing', 'drawing', 'singing', 'swimming'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "unitTitle": "Our school",
+      "weeks": [10, 11],
+      "lessons": [
+        {
+          "grade": 3, "week": 10, "period": 37, "unit": 6, "unitTitle": "Our school", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "school", "pronunciation": "/skuːl/", "meaning": "Trường học" }, { "word": "art room", "pronunciation": "/ɑːt ruːm/", "meaning": "Phòng mỹ thuật" }, { "word": "computer room", "pronunciation": "/kəmˈpjuː.tər ruːm/", "meaning": "Phòng tin học" }, { "word": "gym", "pronunciation": "/dʒɪm/", "meaning": "Phòng thể chất" }],
+          "sentencePatterns": [{ "pattern": "Is this our [Room]? - Yes, it is.", "example": "Is this our computer room? - Yes, it is." }],
+          "languageSkills": ["School rooms"],
+          "objectives": ["Identify school rooms.", "Ask 'Is this our...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "3.C5.4", "name": "AI nhận diện phòng học trường", "description": "Dùng công cụ AI nhận diện 'school'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "unitTitle": "My school things",
+      "weeks": [13, 14],
+      "lessons": [
+        {
+          "grade": 3, "week": 14, "period": 51, "unit": 8, "unitTitle": "My school things", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "book", "pronunciation": "/bʊk/", "meaning": "Sách" }, { "word": "pen", "pronunciation": "/pen/", "meaning": "Bút" }, { "word": "pencil", "pronunciation": "/ˈpen.səl/", "meaning": "Bút chì" }],
+          "sentencePatterns": [{ "pattern": "I have a [School Thing].", "example": "I have a book." }],
+          "languageSkills": ["School supplies"],
+          "objectives": ["Identify school supplies.", "Say book, pen, pencil."],
+          "integrations": [{ "type": "AI Literacy", "code": "1.A2.2", "name": "AI luyện nghe nói đồ dùng học tập", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'book', 'pen'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 11,
+      "unitTitle": "My family",
+      "weeks": [19, 20],
+      "lessons": [
+        {
+          "grade": 3, "week": 19, "period": 73, "unit": 11, "unitTitle": "My family", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "brother", "pronunciation": "/ˈbrʌð.ər/", "meaning": "Anh/em trai" }, { "word": "father", "pronunciation": "/ˈfɑː.ðər/", "meaning": "Bố" }, { "word": "mother", "pronunciation": "/ˈmʌð.ər/", "meaning": "Mẹ" }, { "word": "sister", "pronunciation": "/ˈsɪs.tər/", "meaning": "Chị/em gái" }],
+          "sentencePatterns": [{ "pattern": "Who's this? - It's my [Family Member].", "example": "Who's this? - It's my mother." }],
+          "languageSkills": ["Family members"],
+          "objectives": ["Identify family members.", "Ask 'Who's this?'"],
+          "integrations": [{ "type": "AI Literacy", "code": "3.C5.1", "name": "AI hỗ trợ phân loại thành viên gia đình", "description": "Dùng AI hỗ trợ hoạt động ghép/phân loại thông tin với 'brother', 'father', 'mother', 'sister'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 16,
+      "unitTitle": "My pets",
+      "weeks": [27, 28],
+      "lessons": [
+        {
+          "grade": 3, "week": 27, "period": 107, "unit": 16, "unitTitle": "My pets", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "dog", "pronunciation": "/dɒɡ/", "meaning": "Con chó" }, { "word": "goldfish", "pronunciation": "/ˈɡəʊld.fɪʃ/", "meaning": "Cá vàng" }, { "word": "parrot", "pronunciation": "/ˈpær.ət/", "meaning": "Con vẹt" }, { "word": "cat", "pronunciation": "/kæt/", "meaning": "Con mèo" }],
+          "sentencePatterns": [{ "pattern": "Do you have any [Pets]? - Yes, I do.", "example": "Do you have any dogs? - Yes, I do." }],
+          "languageSkills": ["Pet animals"],
+          "objectives": ["Identify pets.", "Ask 'Do you have any...?'"],
+          "integrations": [{ "type": "AI Literacy", "code": "3.C5.4", "name": "AI nhận diện thú cưng", "description": "Dùng công cụ AI nhận diện 'dog', 'goldfish', 'parrot', 'rabbit', 'cat'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 20,
+      "unitTitle": "At the zoo",
+      "weeks": [34, 35],
+      "lessons": [
+        {
+          "grade": 3, "week": 35, "period": 135, "unit": 20, "unitTitle": "At the zoo", "lesson": 3, "lessonPart": "Lesson 3", "title": "Lesson 3 - Listen and chant; Read and complete", "duration": 35,
+          "vocabulary": [{ "word": "elephant", "pronunciation": "/ˈel.ɪ.fənt/", "meaning": "Con voi" }, { "word": "monkey", "pronunciation": "/ˈmʌŋ.ki/", "meaning": "Con khỉ" }, { "word": "peacock", "pronunciation": "/ˈpiː.kɒk/", "meaning": "Con công" }],
+          "sentencePatterns": [{ "pattern": "What are the [Animals] doing? - They're [Action].", "example": "What are the monkeys doing? - They're swinging." }],
+          "languageSkills": ["Zoo animal actions"],
+          "objectives": ["Identify elephant, monkey, peacock.", "Ask about animal actions."],
+          "integrations": [{ "type": "AI Literacy", "code": "3.C5.4", "name": "AI luyện nghe nói động vật sở thú", "description": "Gợi ý bám SGK: dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'elephant', 'monkey', 'peacock'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    }
+  ]
+}
