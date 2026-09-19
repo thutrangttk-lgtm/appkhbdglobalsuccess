@@ -1,75 +1,247 @@
 {
   "grade": 2,
+  "totalWeeks": 35,
+  "totalPeriods": 70,
+  "source": "PPCT Tiếng Anh Lớp 2 Global Success 2026-2027",
+  "sourceFile": "/raw-documents/1_curriculum_ppct_global_success_2026_2027.md",
   "units": [
     {
       "unit": 1,
-      "unitTitle": "IN THE SHOPPING MALL",
+      "unitTitle": "At my birthday party",
       "weeks": [1, 2],
       "lessons": [
         {
-          "grade": 2,
-          "week": 1,
-          "period": 1,
-          "unit": 1,
-          "unitTitle": "IN THE SHOPPING MALL",
-          "lesson": 1,
-          "title": "Lesson 1 - Look, listen and repeat; Point and say",
-          "durationMinutes": 35,
-          "vocabulary": [
-            { "word": "mop", "pronunciation": "/mɒp/", "meaning": "cây lau nhà" },
-            { "word": "map", "pronunciation": "/mæp/", "meaning": "bản đồ" },
-            { "word": "mango", "pronunciation": "/ˈmæŋɡəʊ/", "meaning": "quả xoài" },
-            { "word": "milk", "pronunciation": "/mɪlk/", "meaning": "sữa" }
-          ],
-          "sentencePatterns": [
-            { "pattern": "I can see a [Object].", "example": "I can see a map." },
-            { "pattern": "I like [Food/Drink].", "example": "I like milk." }
-          ],
-          "languageSkills": ["Sound /m/ recognition", "Expressing preferences ('I like...')"],
-          "objectives": {
-            "languageKnowledge": [
-              "Pupils learn the sound /m/ and vocabulary: mop, map, mango, milk.",
-              "Pupils practice the pattern 'I can see a... / I like...'"
-            ],
-            "languageSkills": ["Listening to /m/ sound", "Speaking food and object words."],
-            "generalCompetences": ["Self-regulation in learning tasks."],
-            "qualities": ["Appreciating healthy food like milk and fruits."]
-          },
-          "activities": [
-            {
-              "stageName": "1. Warm-up",
-              "durationMinutes": 5,
-              "teacherActivities": ["Play shopping mall introductory video clip."],
-              "pupilActivities": ["Watch clip and name familiar items."],
-              "expectedOutcomes": ["Interest in shopping mall topic."],
-              "postLessonAdjustments": ""
-            },
-            {
-              "stageName": "2. Presentation",
-              "durationMinutes": 10,
-              "teacherActivities": ["Introduce letter M/m and sound /m/.", "Present flashcards."],
-              "pupilActivities": ["Repeat /m/ sound and target words."],
-              "expectedOutcomes": ["Clear sound /m/ pronunciation."],
-              "postLessonAdjustments": ""
-            },
-            {
-              "stageName": "3. Practice & Application",
-              "durationMinutes": 15,
-              "teacherActivities": ["Organize 'I can see' speaking game in pairs."],
-              "pupilActivities": ["Practice saying 'I can see a map' to partners."],
-              "expectedOutcomes": ["Active pair practice."],
-              "postLessonAdjustments": ""
-            },
-            {
-              "stageName": "4. Consolidation & Homework",
-              "durationMinutes": 5,
-              "teacherActivities": ["Review vocabulary and wrap up."],
-              "pupilActivities": ["Repeat vocabulary together."],
-              "expectedOutcomes": ["Lesson recap."],
-              "postLessonAdjustments": ""
-            }
-          ],
-          "integrationCandidates": []
+          "grade": 2, "week": 1, "period": 1, "unit": 1, "unitTitle": "At my birthday party", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "pasta", "pronunciation": "/ˈpæs.tə/", "meaning": "mì Ý" }, { "word": "popcorn", "pronunciation": "/ˈpɒp.kɔːn/", "meaning": "bỏng ngô" }, { "word": "pizza", "pronunciation": "/ˈpiːt.sə/", "meaning": "bánh pizza" }],
+          "sentencePatterns": [{ "pattern": "I like [Food].", "example": "I like pasta." }],
+          "languageSkills": ["Sound /p/ recognition", "Birthday food vocabulary"],
+          "objectives": ["Recognize sound /p/.", "Say pasta, popcorn, pizza.", "Express food likes with 'I like...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "2.A2.MR1", "name": "Dùng AI hỗ trợ nghe phát âm pasta", "description": "Dùng công cụ AI hỗ trợ nghe và luyện phát âm 'pasta', đúng nội dung Unit 1 Lesson 1.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "unitTitle": "In the backyard",
+      "weeks": [2, 3],
+      "lessons": [
+        {
+          "grade": 2, "week": 2, "period": 4, "unit": 2, "unitTitle": "In the backyard", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "kite", "pronunciation": "/kaɪt/", "meaning": "con diều" }, { "word": "bike", "pronunciation": "/baɪk/", "meaning": "xe đạp" }, { "word": "kitten", "pronunciation": "/ˈkɪt.ən/", "meaning": "mèo con" }, { "word": "flying", "pronunciation": "/ˈflaɪ.ɪŋ/", "meaning": "đang bay diều" }],
+          "sentencePatterns": [{ "pattern": "He is [Action].", "example": "He is flying a kite." }],
+          "languageSkills": ["Backyard activities", "Action verbs"],
+          "objectives": ["Say kite, bike, kitten, flying.", "Use 'He is flying...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "2.C3.1", "name": "AI nhận diện hình ảnh diều và xe đạp", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'kite', 'bike', 'kitten', 'flying'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "unitTitle": "At the seaside",
+      "weeks": [5, 6],
+      "lessons": [
+        {
+          "grade": 2, "week": 5, "period": 9, "unit": 3, "unitTitle": "At the seaside", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "sail", "pronunciation": "/seɪl/", "meaning": "Cánh buồm" }, { "word": "sand", "pronunciation": "/sænd/", "meaning": "Bãi cát" }, { "word": "sea", "pronunciation": "/siː/", "meaning": "Biển" }],
+          "sentencePatterns": [{ "pattern": "I can see the [Item].", "example": "I can see the sea." }],
+          "languageSkills": ["Sound /s/ recognition", "Seaside words"],
+          "objectives": ["Recognize sound /s/.", "Say sail, sand, sea."],
+          "integrations": [{ "type": "An toàn giao thông", "code": "ATGT-PRIM-01", "name": "Liên hệ an toàn khi đi lại bãi biển", "description": "Liên hệ an toàn đi lại qua chính nội dung 'sand', 'sea'.", "source": "PPCT Grade 2" }]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "unitTitle": "In the countryside",
+      "weeks": [6, 7],
+      "lessons": [
+        {
+          "grade": 2, "week": 6, "period": 12, "unit": 4, "unitTitle": "In the countryside", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "river", "pronunciation": "/ˈrɪv.ər/", "meaning": "Dòng sông" }, { "word": "road", "pronunciation": "/rəʊd/", "meaning": "Con đường" }, { "word": "rainbow", "pronunciation": "/ˈreɪn.bəʊ/", "meaning": "Cầu vồng" }],
+          "sentencePatterns": [{ "pattern": "There's a [Item] in the countryside.", "example": "There's a river in the countryside." }],
+          "languageSkills": ["Sound /r/ recognition", "Countryside words"],
+          "objectives": ["Recognize sound /r/.", "Say river, road, rainbow."],
+          "integrations": [{ "type": "AI Literacy", "code": "2.A2.MR1", "name": "AI nghe nói từ vựng miền quê", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'river', 'road'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "unitTitle": "In the classroom",
+      "weeks": [10],
+      "lessons": [
+        {
+          "grade": 2, "week": 10, "period": 19, "unit": 5, "unitTitle": "In the classroom", "lesson": 2, "lessonPart": "Lesson 2", "title": "Lesson 2 - Listen and chant; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "square", "pronunciation": "/skweər/", "meaning": "Hình vuông" }, { "word": "question", "pronunciation": "/ˈkwes.tʃən/", "meaning": "Câu hỏi" }, { "word": "quiz", "pronunciation": "/kwɪz/", "meaning": "Bài đố vui" }, { "word": "colouring", "pronunciation": "/ˈkʌl.ər.ɪŋ/", "meaning": "Tô màu" }],
+          "sentencePatterns": [{ "pattern": "What shape is it? - It's a [Shape].", "example": "What shape is it? - It's a square." }],
+          "languageSkills": ["Classroom shapes & activities"],
+          "objectives": ["Identify square, question, quiz, colouring.", "Ask 'What shape is it?'"],
+          "integrations": [{ "type": "AI Literacy", "code": "2.C3.1", "name": "AI nhận diện hình khối square", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'square', 'question', 'quiz', 'colouring'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "unitTitle": "On the farm",
+      "weeks": [11, 12],
+      "lessons": [
+        {
+          "grade": 2, "week": 11, "period": 21, "unit": 6, "unitTitle": "On the farm", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "farm", "pronunciation": "/fɑːm/", "meaning": "Nông trại" }, { "word": "box", "pronunciation": "/bɒks/", "meaning": "Cái hộp" }, { "word": "fox", "pronunciation": "/fɒks/", "meaning": "Con cáo" }, { "word": "ox", "pronunciation": "/ɒks/", "meaning": "Con bò ngót" }],
+          "sentencePatterns": [{ "pattern": "What can you see? - I can see an [Animal].", "example": "What can you see? - I can see an ox." }],
+          "languageSkills": ["Sound /x/ recognition", "Farm animals"],
+          "objectives": ["Recognize sound /x/.", "Say farm, box, fox, ox."],
+          "integrations": [{ "type": "AI Literacy", "code": "2.A2.MR1", "name": "AI nghe nói nông trại", "description": "Dùng công cụ AI hỗ trợ nghe và luyện phát âm 'farm'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "unitTitle": "In the kitchen",
+      "weeks": [13, 14],
+      "lessons": [
+        {
+          "grade": 2, "week": 13, "period": 26, "unit": 7, "unitTitle": "In the kitchen", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "jam", "pronunciation": "/dʒæm/", "meaning": "Mứt trái cây" }, { "word": "juice", "pronunciation": "/dʒuːs/", "meaning": "Nước ép" }, { "word": "jelly", "pronunciation": "/ˈdʒel.i/", "meaning": "Thạch" }],
+          "sentencePatterns": [{ "pattern": "I'd like some [Food/Drink].", "example": "I'd like some jam." }],
+          "languageSkills": ["Kitchen food words", "Expressing desires"],
+          "objectives": ["Say jam, juice, jelly.", "Use 'I'd like some...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "2.A2.1", "name": "AI hỗ trợ nhận biết jam juice", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói hoặc phản hồi với 'jam'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "unitTitle": "In the village",
+      "weeks": [15, 16],
+      "lessons": [
+        {
+          "grade": 2, "week": 15, "period": 29, "unit": 8, "unitTitle": "In the village", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "village", "pronunciation": "/ˈvɪl.ɪdʒ/", "meaning": "Ngôi làng" }, { "word": "van", "pronunciation": "/væn/", "meaning": "Xe tải nhỏ" }, { "word": "volleyball", "pronunciation": "/ˈvɒl.i.bɔːl/", "meaning": "Bóng chuyền" }],
+          "sentencePatterns": [{ "pattern": "They're playing [Sport] in the village.", "example": "They're playing volleyball in the village." }],
+          "languageSkills": ["Village words", "Sound /v/"],
+          "objectives": ["Recognize sound /v/.", "Say village, van, volleyball."],
+          "integrations": [{ "type": "AI Literacy", "code": "2.A2.MR1", "name": "AI luyện nghe nói ngôi làng", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'village', 'van', 'volleyball'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "unitTitle": "In the grocery store",
+      "weeks": [19],
+      "lessons": [
+        {
+          "grade": 2, "week": 19, "period": 37, "unit": 9, "unitTitle": "In the grocery store", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "yogurt", "pronunciation": "/ˈjɒɡ.ət/", "meaning": "Sữa chua" }, { "word": "yam", "pronunciation": "/jæm/", "meaning": "Khoai lang" }, { "word": "yo-yo", "pronunciation": "/ˈjəʊ.jəʊ/", "meaning": "Đồ chơi yo-yo" }],
+          "sentencePatterns": [{ "pattern": "Can I have a [Item]?", "example": "Can I have a yogurt?" }],
+          "languageSkills": ["Grocery items", "Sound /y/"],
+          "objectives": ["Recognize sound /y/.", "Say yogurt, yam, yo-yo."],
+          "integrations": [{ "type": "AI Literacy", "code": "2.D1.1", "name": "AI phân loại đồ tạp hóa", "description": "Dùng AI hỗ trợ hoạt động ghép/phân loại thông tin với 'yogurt', 'yams', 'yo-yos'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "unitTitle": "At the zoo",
+      "weeks": [20, 21],
+      "lessons": [
+        {
+          "grade": 2, "week": 20, "period": 40, "unit": 10, "unitTitle": "At the zoo", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "zoo", "pronunciation": "/zuː/", "meaning": "Sở thú" }, { "word": "zebra", "pronunciation": "/ˈzeb.rə/", "meaning": "Ngựa vằn" }, { "word": "zebu", "pronunciation": "/ˈziː.buː/", "meaning": "Bò gù" }],
+          "sentencePatterns": [{ "pattern": "I'm going to the [Place].", "example": "I'm going to the zoo." }],
+          "languageSkills": ["Zoo animals", "Sound /z/"],
+          "objectives": ["Recognize sound /z/.", "Say zoo, zebra, zebu."],
+          "integrations": [{ "type": "AI Literacy", "code": "2.C3.1", "name": "AI nhận diện thú sở thú", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'zoo', 'zebu'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 11,
+      "unitTitle": "In the playground",
+      "weeks": [23, 24],
+      "lessons": [
+        {
+          "grade": 2, "week": 23, "period": 45, "unit": 11, "unitTitle": "In the playground", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "riding", "pronunciation": "/ˈraɪ.dɪŋ/", "meaning": "Đang cưỡi, đạp xe" }, { "word": "sliding", "pronunciation": "/ˈslaɪ.dɪŋ/", "meaning": "Đang trượt cầu trượt" }, { "word": "driving", "pronunciation": "/ˈdraɪ.vɪŋ/", "meaning": "Đang lái xe" }],
+          "sentencePatterns": [{ "pattern": "She's [Action] in the playground.", "example": "She's sliding in the playground." }],
+          "languageSkills": ["Playground actions"],
+          "objectives": ["Identify riding, sliding, driving.", "Use 'She's sliding...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "2.A1.3", "name": "AI hỗ trợ nhận biết trò chơi sân trường", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói hoặc phản hồi với 'riding', 'sliding'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 12,
+      "unitTitle": "At the café",
+      "weeks": [24, 25],
+      "lessons": [
+        {
+          "grade": 2, "week": 25, "period": 49, "unit": 12, "unitTitle": "At the café", "lesson": 2, "lessonPart": "Lesson 2", "title": "Lesson 2 - Listen and chant; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "grapes", "pronunciation": "/ɡreɪps/", "meaning": "Nho" }, { "word": "cake", "pronunciation": "/keɪk/", "meaning": "Bánh ngọt" }, { "word": "table", "pronunciation": "/ˈteɪ.bəl/", "meaning": "Cái bàn" }],
+          "sentencePatterns": [{ "pattern": "There are [Food] on the table.", "example": "There are grapes on the table." }],
+          "languageSkills": ["Café food & furniture"],
+          "objectives": ["Say grapes, cake, table.", "Use 'There are grapes...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "1.A2.1", "name": "AI nghe nói tại quán café", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'grapes', 'cake'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 13,
+      "unitTitle": "In the maths class",
+      "weeks": [27, 28],
+      "lessons": [
+        {
+          "grade": 2, "week": 27, "period": 54, "unit": 13, "unitTitle": "In the maths class", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "eleven", "pronunciation": "/ɪˈlev.ən/", "meaning": "Số 11" }, { "word": "twelve", "pronunciation": "/twelv/", "meaning": "Số 12" }, { "word": "thirteen", "pronunciation": "/θɜːˈtiːn/", "meaning": "Số 13" }, { "word": "fourteen", "pronunciation": "/ˌfɔːˈtiːn/", "meaning": "Số 14" }],
+          "sentencePatterns": [{ "pattern": "I can count to [Number].", "example": "I can count to fourteen." }],
+          "languageSkills": ["Maths numbers 11-14"],
+          "objectives": ["Count 11-14 in English.", "Say eleven, twelve, thirteen, fourteen."],
+          "integrations": [{ "type": "AI Literacy", "code": "2.C3.1", "name": "AI nhận diện con số trong toán", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'eleven', 'fourteen'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 14,
+      "unitTitle": "At home",
+      "weeks": [29, 30],
+      "lessons": [
+        {
+          "grade": 2, "week": 29, "period": 57, "unit": 14, "unitTitle": "At home", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "sister", "pronunciation": "/ˈsɪs.tər/", "meaning": "Chị, em gái" }, { "word": "brother", "pronunciation": "/ˈbrʌð.ər/", "meaning": "Anh, em trai" }, { "word": "grandmother", "pronunciation": "/ˈɡræn.mʌð.ər/", "meaning": "Bà" }, { "word": "sixteen", "pronunciation": "/ˌsɪkˈstiːn/", "meaning": "Số 16" }],
+          "sentencePatterns": [{ "pattern": "This is my [Family Member].", "example": "This is my sister." }],
+          "languageSkills": ["Family vocabulary"],
+          "objectives": ["Say sister, brother, grandmother, sixteen.", "Introduce family with 'This is my...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "2.A2.MR1", "name": "AI nghe nói từ vựng gia đình", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'sister', 'brother', 'grandmother', 'sixteen'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 15,
+      "unitTitle": "In the clothes shop",
+      "weeks": [31, 32],
+      "lessons": [
+        {
+          "grade": 2, "week": 32, "period": 62, "unit": 15, "unitTitle": "In the clothes shop", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "shirt", "pronunciation": "/ʃɜːt/", "meaning": "Áo sơ mi" }, { "word": "shoe", "pronunciation": "/ʃuː/", "meaning": "Giày" }, { "word": "shorts", "pronunciation": "/ʃɔːts/", "meaning": "Quần đùi" }],
+          "sentencePatterns": [{ "pattern": "I'm wearing [Clothes].", "example": "I'm wearing a shirt." }],
+          "languageSkills": ["Clothes vocabulary"],
+          "objectives": ["Say shirt, shoe, shorts.", "Use 'I'm wearing...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "2.A2.1", "name": "AI nghe nói cửa hàng quần áo", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'shirts'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 16,
+      "unitTitle": "At the campsite",
+      "weeks": [33, 34],
+      "lessons": [
+        {
+          "grade": 2, "week": 33, "period": 65, "unit": 16, "unitTitle": "At the campsite", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "tent", "pronunciation": "/tent/", "meaning": "Lều cắm trại" }, { "word": "teapot", "pronunciation": "/ˈtiː.pɒt/", "meaning": "Ấm trà" }, { "word": "blanket", "pronunciation": "/ˈblæŋ.kɪt/", "meaning": "Cái chăn" }],
+          "sentencePatterns": [{ "pattern": "We have a [Item] at the campsite.", "example": "We have a tent at the campsite." }],
+          "languageSkills": ["Camping equipment"],
+          "objectives": ["Say tent, teapot, blanket.", "Use 'We have a tent...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "2.A2.MR1", "name": "AI nghe nói tại khu cắm trại", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'tent'.", "source": "Decision 2422/QĐ-BGDĐT" }]
         }
       ]
     }
