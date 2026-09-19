@@ -1,7 +1,7 @@
 import React from 'react';
 import { CurriculumService } from '../../services/curriculumService';
 import { LessonData } from '../../types/curriculum';
-import { BookOpen, Calendar, Clock, Layers, FileCode, CheckCircle, AlertCircle } from 'lucide-react';
+import { BookOpen, Calendar, Clock, Layers, FileCode, CheckCircle } from 'lucide-react';
 
 interface CurriculumSelectorsProps {
   selectedGrade: number;
@@ -26,6 +26,27 @@ export const CurriculumSelectors: React.FC<CurriculumSelectorsProps> = ({
   const weeks = CurriculumService.getWeeksForGrade(selectedGrade);
   const availablePeriodLessons = CurriculumService.getPeriodsForWeek(selectedGrade, selectedWeek);
 
+  // Helper to construct concise dropdown option label (Section 3 & 8)
+  const formatPeriodLabel = (pl: LessonData) => {
+    if (pl.contentType === 'STARTER' || pl.title?.toLowerCase().includes('starter')) {
+      return `Tiết ${pl.period} — Starter`;
+    }
+    if (pl.contentType === 'REVIEW' || pl.title?.toLowerCase().includes('review')) {
+      const reviewPart = pl.lessonPart || (pl.title ? pl.title.split('-')[0].trim() : 'Review');
+      return `Tiết ${pl.period} — ${reviewPart}`;
+    }
+    if (pl.contentType === 'EXTENSION' || pl.title?.toLowerCase().includes('extension')) {
+      return `Tiết ${pl.period} — Extension`;
+    }
+    if (pl.contentType === 'OTHER' || pl.lessonPart?.startsWith('Fun time')) {
+      return `Tiết ${pl.period} — ${pl.lessonPart || 'Fun time'}`;
+    }
+    if (pl.unit !== undefined && pl.lesson !== undefined) {
+      return `Tiết ${pl.period} — Unit ${pl.unit} · Lesson ${pl.lesson}`;
+    }
+    return `Tiết ${pl.period} — ${pl.lessonPart || pl.title}`;
+  };
+
   return (
     <div className="bg-white p-6 rounded-2xl border border-slate-200/90 shadow-sm space-y-5">
       <div className="flex items-center justify-between pb-3 border-b border-slate-100">
@@ -37,7 +58,7 @@ export const CurriculumSelectors: React.FC<CurriculumSelectorsProps> = ({
         </div>
         <span className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
           <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
-          Nguồn xác minh 35 tuần
+          Truy xuất chính xác theo Tiết dạy
         </span>
       </div>
 
@@ -81,7 +102,7 @@ export const CurriculumSelectors: React.FC<CurriculumSelectorsProps> = ({
           </select>
         </div>
 
-        {/* 3. Period Selector */}
+        {/* 3. Period Selector (Concise Format) */}
         <div className="space-y-1.5">
           <label className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
             <Clock className="w-4 h-4 text-blue-600" />
@@ -95,37 +116,53 @@ export const CurriculumSelectors: React.FC<CurriculumSelectorsProps> = ({
             {availablePeriodLessons.length > 0 ? (
               availablePeriodLessons.map((pl) => (
                 <option key={pl.period} value={pl.period}>
-                  Tiết {pl.period}: Unit {pl.unit} - {pl.lessonPart || `Lesson ${pl.lesson}`} ({pl.title})
+                  {formatPeriodLabel(pl)}
                 </option>
               ))
             ) : (
-              <option value={selectedPeriod}>Tiết {selectedPeriod}</option>
+              <option value={selectedPeriod}>Tiết {selectedPeriod} (Chưa có dữ liệu)</option>
             )}
           </select>
         </div>
       </div>
 
-      {/* Row 2: Automatically Loaded Metadata Display */}
+      {/* Row 2: Dynamic Loaded Metadata Display */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-3 bg-slate-50/80 p-4 rounded-xl border border-slate-200/70">
-        {/* Unit */}
+        {/* Content Type / Unit */}
         <div className="space-y-1">
           <span className="text-[11px] font-semibold uppercase text-slate-500 flex items-center gap-1">
             <Layers className="w-3.5 h-3.5 text-slate-400" />
-            Unit (Tự động)
+            Phân loại bài dạy (Type)
           </span>
-          <div className="text-sm font-bold text-slate-800 truncate" title={currentLessonData?.unitTitle || 'Đang tải...'}>
-            {currentLessonData ? `Unit ${currentLessonData.unit}: ${currentLessonData.unitTitle}` : <span className="text-amber-600 text-xs italic">Chưa xác minh</span>}
+          <div className="text-sm font-bold text-slate-800 truncate" title={currentLessonData?.unitTitle}>
+            {currentLessonData ? (
+              currentLessonData.unit !== undefined ? (
+                `Unit ${currentLessonData.unit}: ${currentLessonData.unitTitle}`
+              ) : (
+                currentLessonData.contentType || currentLessonData.lessonPart || 'Chuyên mục bài học'
+              )
+            ) : (
+              <span className="text-amber-600 text-xs italic">Chưa xác minh</span>
+            )}
           </div>
         </div>
 
-        {/* Lesson */}
+        {/* Lesson / Section */}
         <div className="space-y-1">
           <span className="text-[11px] font-semibold uppercase text-slate-500 flex items-center gap-1">
             <FileCode className="w-3.5 h-3.5 text-slate-400" />
-            Lesson (Tự động)
+            Bài dạy (Lesson / Section)
           </span>
           <div className="text-sm font-bold text-slate-800 truncate">
-            {currentLessonData ? (currentLessonData.lessonPart || `Lesson ${currentLessonData.lesson}`) : <span className="text-amber-600 text-xs italic">Chưa xác minh</span>}
+            {currentLessonData ? (
+              currentLessonData.lesson !== undefined ? (
+                currentLessonData.lessonPart || `Lesson ${currentLessonData.lesson}`
+              ) : (
+                currentLessonData.title
+              )
+            ) : (
+              <span className="text-amber-600 text-xs italic">Chưa xác minh</span>
+            )}
           </div>
         </div>
 
@@ -133,7 +170,7 @@ export const CurriculumSelectors: React.FC<CurriculumSelectorsProps> = ({
         <div className="space-y-1 md:col-span-1">
           <span className="text-[11px] font-semibold uppercase text-slate-500 flex items-center gap-1">
             <BookOpen className="w-3.5 h-3.5 text-slate-400" />
-            Lesson Title (Tự động)
+            Tên Tiết dạy (Lesson Title)
           </span>
           <div className="text-xs font-semibold text-slate-700 truncate" title={currentLessonData?.title}>
             {currentLessonData?.title || <span className="text-amber-600 text-xs italic">Chưa có dữ liệu PPCT</span>}
