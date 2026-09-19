@@ -154,7 +154,7 @@ export class ExportService {
       );
     }
 
-    // Language Skills
+    // Language Skills & Competences
     objectivesContent.push(
       new Paragraph({
         spacing: { before: 100 },
@@ -163,7 +163,20 @@ export class ExportService {
       new Paragraph({
         children: [
           new TextRun({
-            text: 'Listening, Speaking, Reading, and Writing integrated. Thereby contributing to the development of pupils\' general competences and qualities such as autonomy, communication and cooperation.',
+            text: 'Listening, Speaking, Reading, and Writing integrated.',
+            size: 24,
+            font: mainFont,
+          }),
+        ],
+      }),
+      new Paragraph({
+        spacing: { before: 100 },
+        children: [new TextRun({ text: 'c. Competences and Qualities:', bold: true, italics: true, size: 24, font: mainFont })],
+      }),
+      new Paragraph({
+        children: [
+          new TextRun({
+            text: 'Thereby contributing to the development of pupils\' general competences and qualities such as autonomy, communication and cooperation.',
             size: 24,
             font: mainFont,
           }),
