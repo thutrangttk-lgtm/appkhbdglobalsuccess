@@ -187,7 +187,7 @@ export const IntegrationPanel: React.FC<IntegrationPanelProps> = ({
                   Không có nội dung Năng lực số cho tiết học này.
                 </p>
                 <span className="text-[10px] text-slate-400 block font-mono">
-                  Source: Thông tư 02/2025 & CV 3456
+                  Source: Thông tư 02/2025/TT-BGDĐT
                 </span>
               </div>
             )}
