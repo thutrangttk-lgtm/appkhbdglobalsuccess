@@ -1,0 +1,191 @@
+[
+  {
+    "type": "AI Literacy",
+    "code": "1.C1.2",
+    "name": "Dùng công cụ AI hỗ trợ nghe và luyện phát âm",
+    "description": "Nhận diện được một số công cụ AI quen thuộc trên điện thoại/máy tính bảng; dùng công cụ AI hỗ trợ nghe và luyện phát âm từ vựng bài dạy.",
+    "applicableGrades": [1],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 15, Mục NLc Lớp 1"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "1.C1.MR1",
+    "name": "Dùng công cụ AI nhận diện hình ảnh",
+    "description": "Nhận biết được AI có khả năng xử lí hình ảnh nhận được để nhận diện các đồ vật, từ vựng hình ảnh trong SGK.",
+    "applicableGrades": [1],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 15, Mục NLc.MR1 Lớp 1"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "1.A2.1",
+    "name": "Nhận biết biểu hiện và phản hồi của AI",
+    "description": "Nêu các cách mà AI thể hiện cảm xúc qua hình ảnh, giọng nói hoặc hành vi trợ lý ảo.",
+    "applicableGrades": [1],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 14, Mục NLa Lớp 1"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "1.A2.2",
+    "name": "Nhận biết thiết bị sử dụng AI",
+    "description": "Nhận biết và kể tên được một số sản phẩm hoặc thiết bị có sử dụng trí tuệ nhân tạo (loa thông minh, camera nhận diện, trợ lý ảo...).",
+    "applicableGrades": [1],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 14, Mục NLa Lớp 1"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "1.D2.1",
+    "name": "Phân loại máy thông minh",
+    "description": "Nhận biết được rằng có loại máy thông minh chỉ làm được một việc và loại làm được nhiều việc khác nhau.",
+    "applicableGrades": [1],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 16, Mục NLd Lớp 1"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "2.A2.MR1",
+    "name": "Sử dụng ứng dụng AI có giám sát",
+    "description": "Thực hành sử dụng một số thiết bị hoặc ứng dụng có sử dụng AI với sự giám sát, hỗ trợ của giáo viên.",
+    "applicableGrades": [2],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 17, Mục NLa.MR1 Lớp 2"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "2.C3.1",
+    "name": "Nhận diện hình ảnh phân loại đồ vật bằng AI",
+    "description": "Dùng công cụ AI nhận diện hình ảnh gắn với từ vựng SGK; sơ lược cách AI phân loại đồ vật.",
+    "applicableGrades": [2],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 18, Mục NLc Lớp 2"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "2.D1.1",
+    "name": "Máy thông minh giúp giải quyết vấn đề quanh em",
+    "description": "Nêu được một số vấn đề đơn giản, gần gũi trong đời sống có thể áp dụng AI hỗ trợ phân loại hoặc ghép thông tin.",
+    "applicableGrades": [2],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 18, Mục NLd Lớp 2"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "3.A1.MR1",
+    "name": "Sử dụng trợ lý học tập thông minh hỗ trợ phát âm",
+    "description": "Thực hành sử dụng trợ lí học tập thông minh, ứng dụng học ngôn ngữ để hỗ trợ luyện phát âm bài dạy.",
+    "applicableGrades": [3],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 19, Mục NLa.MR1 Lớp 3"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "3.C5.4",
+    "name": "Bài toán học máy phân loại hình ảnh & từ vựng",
+    "description": "Dùng công cụ AI nhận diện hình ảnh và luyện phát âm từ vựng trọng tâm bài dạy.",
+    "applicableGrades": [3],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 21, Mục NLc Lớp 3"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "3.C5.1",
+    "name": "Cấu trúc nếu... thì... trong giải quyết tình huống",
+    "description": "Mô tả được cấu trúc nếu... thì... trong việc giải quyết tình huống hoặc hỗ trợ phân loại dữ liệu.",
+    "applicableGrades": [3],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 20, Mục NLc Lớp 3"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "3.A2.1",
+    "name": "AI trong trường học hỗ trợ học tập",
+    "description": "Nhận biết được một số ứng dụng hoặc thiết bị có sử dụng AI trong trường học.",
+    "applicableGrades": [3],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 19, Mục NLa Lớp 3"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "4.C2.1",
+    "name": "Ứng dụng AI trong học tập và cuộc sống",
+    "description": "Nêu được các ứng dụng của AI trong học tập và đời sống, đặc biệt là các ứng dụng gần gũi với bối cảnh Việt Nam.",
+    "applicableGrades": [4],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 22, Mục NLc Lớp 4"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "4.C2.MR1",
+    "name": "Trải nghiệm ứng dụng AI hỗ trợ phát âm",
+    "description": "Thực hành trải nghiệm một số ứng dụng AI hỗ trợ nghe và luyện phát âm từ vựng bài học.",
+    "applicableGrades": [4],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 22, Mục NLc.MR1 Lớp 4"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "4.C5.MR1",
+    "name": "Thao tác với công cụ trải nghiệm học máy",
+    "description": "Thực hiện theo từng bước các thao tác cơ bản với công cụ trải nghiệm AI trực quan dựa trên học máy (Teachable Machine...).",
+    "applicableGrades": [4],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 23, Mục NLc.MR1 Lớp 4"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "4.D1.1",
+    "name": "Ý tưởng sử dụng AI giải quyết vấn đề",
+    "description": "Nêu được một số ý tưởng ban đầu về cách AI có thể học hoặc giúp giải quyết vấn đề gần gũi với bối cảnh Việt Nam.",
+    "applicableGrades": [4],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 23, Mục NLd Lớp 4"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "4.A1.1",
+    "name": "Lĩnh vực AI hỗ trợ con người",
+    "description": "Trình bày được một số lĩnh vực hoặc công việc cụ thể mà trí tuệ nhân tạo (AI) có thể hỗ trợ con người.",
+    "applicableGrades": [4],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 21, Mục NLa Lớp 4"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "5.A3.1",
+    "name": "Sử dụng AI an toàn và hiệu quả",
+    "description": "Trình bày được việc sử dụng AI để phục vụ cuộc sống, học tập và công việc một cách an toàn, hiệu quả.",
+    "applicableGrades": [5],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 24, Mục NLa Lớp 5"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "5.C5.2",
+    "name": "Học máy trực quan gán nhãn dữ liệu bài dạy",
+    "description": "Dùng công cụ AI nhận diện hình ảnh gắn với từ vựng bài học; thực hiện thao tác cơ bản trên công cụ trải nghiệm học máy.",
+    "applicableGrades": [5],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 25, Mục NLc Lớp 5"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "5.C5.1",
+    "name": "Thuật toán AI dựa trên luật phân loại",
+    "description": "Dùng AI hỗ trợ hoạt động ghép/phân loại thông tin từ vựng và mẫu câu theo kịch bản định sẵn.",
+    "applicableGrades": [5],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 25, Mục NLc Lớp 5"
+  },
+  {
+    "type": "AI Literacy",
+    "code": "5.A1.1",
+    "name": "Con người chịu trách nhiệm cuối cùng",
+    "description": "Trình bày được rằng con người chịu trách nhiệm cuối cùng về mọi quyết định hoặc kết quả do AI tạo ra.",
+    "applicableGrades": [5],
+    "source": "Decision 2422/QĐ-BGDĐT",
+    "sourceReference": "QĐ 2422/QĐ-BGDĐT Trang 23, Mục NLa Lớp 5"
+  }
+]
