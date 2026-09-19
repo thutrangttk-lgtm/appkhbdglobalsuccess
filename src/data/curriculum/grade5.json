@@ -1,0 +1,153 @@
+{
+  "grade": 5,
+  "totalWeeks": 35,
+  "totalPeriods": 140,
+  "source": "PPCT Tiếng Anh Lớp 5 Global Success 2026-2027",
+  "sourceFile": "/raw-documents/1_curriculum_ppct_global_success_2026_2027.md",
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "ALL ABOUT ME!",
+      "weeks": [1, 2],
+      "lessons": [
+        {
+          "grade": 5, "week": 1, "period": 1, "unit": 1, "unitTitle": "ALL ABOUT ME!", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say; Let's talk", "duration": 35,
+          "vocabulary": [{ "word": "address", "pronunciation": "/əˈdres/", "meaning": "địa chỉ" }, { "word": "lane", "pronunciation": "/leɪn/", "meaning": "ngõ, hẻm" }, { "word": "street", "pronunciation": "/striːt/", "meaning": "đường phố" }, { "word": "avenue", "pronunciation": "/ˈæv.ə.njuː/", "meaning": "đại lộ" }, { "word": "flat", "pronunciation": "/flæt/", "meaning": "căn hộ" }],
+          "sentencePatterns": [{ "pattern": "What's your address? - It's [Address].", "example": "What's your address? - It's 75 Hoa Binh Lane." }],
+          "languageSkills": ["Asking and telling addresses", "Listening and reading street address vocabulary"],
+          "objectives": ["Ask and answer about addresses using 'What's your address? - It's...'", "Correctly pronounce and use vocabulary: address, lane, street, avenue, flat."],
+          "integrations": [{ "type": "An toàn giao thông", "code": "ATGT-PRIM-01", "name": "Liên hệ an toàn khi tham gia giao thông", "description": "Unit 1 Lesson 1 liên hệ an toàn giao thông khi đi lại trên đường ngõ, phố.", "source": "PPCT Grade 5" }]
+        },
+        {
+          "grade": 5, "week": 2, "period": 7, "unit": 1, "unitTitle": "ALL ABOUT ME!", "lesson": 2, "lessonPart": "Lesson 2", "title": "Lesson 2 - Look, listen and repeat; Point and say; Let's talk", "duration": 35,
+          "vocabulary": [{ "word": "hometown", "pronunciation": "/ˈhəʊm.taʊn/", "meaning": "quê hương" }, { "word": "city", "pronunciation": "/ˈsɪt.i/", "meaning": "thành phố" }, { "word": "mountain", "pronunciation": "/ˈmaʊn.tɪn/", "meaning": "vùng núi" }, { "word": "village", "pronunciation": "/ˈvɪl.ɪdʒ/", "meaning": "ngôi làng" }, { "word": "tower", "pronunciation": "/ˈtaʊ.ər/", "meaning": "tòa tháp" }],
+          "sentencePatterns": [{ "pattern": "What's your hometown like? - It's [Adjective].", "example": "What's your hometown like? - It's big and busy." }],
+          "languageSkills": ["Describing hometowns", "Asking about living environment"],
+          "objectives": ["Ask and describe hometowns using 'What's your hometown like? - It's...'", "Master vocabulary: hometown, city, mountain, village, tower."],
+          "integrations": [{ "type": "AI Literacy", "code": "5.C5.2", "name": "AI nhận diện hình ảnh quê hương", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'city', 'class', 'countryside', 'dolphin', là nội dung xuất hiện trong Unit 1: All about me! – Lesson 2.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        },
+        {
+          "grade": 5, "week": 2, "period": 9, "unit": 1, "unitTitle": "ALL ABOUT ME!", "lesson": 3, "lessonPart": "Lesson 3", "title": "Lesson 3 - Listen and chant; Read and complete; Let's write", "duration": 35,
+          "vocabulary": [{ "word": "city", "pronunciation": "/ˈsɪt.i/", "meaning": "thành phố" }, { "word": "village", "pronunciation": "/ˈvɪl.ɪdʒ/", "meaning": "ngôi làng" }],
+          "sentencePatterns": [{ "pattern": "Where do you live? - I live in...", "example": "Where do you live? - I live in a big city." }],
+          "languageSkills": ["Reading comprehension", "Writing personal profile"],
+          "objectives": ["Chant with rhythm focusing on stress in city/village.", "Write a short paragraph introducing self and address."],
+          "integrations": [{ "type": "Digital Competence", "code": "NLS 4.2.CB2a", "name": "Bảo vệ dữ liệu cá nhân", "description": "Lựa chọn được cách thức đơn giản để bảo vệ dữ liệu cá nhân và quyền riêng tư trong môi trường số.", "source": "Thông tư 02/2025/TT-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "unitTitle": "Our homes!",
+      "weeks": [3, 4],
+      "lessons": [
+        {
+          "grade": 5, "week": 3, "period": 11, "unit": 2, "unitTitle": "Our homes!", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "flat", "pronunciation": "/flæt/", "meaning": "Căn hộ" }, { "word": "house", "pronunciation": "/haʊs/", "meaning": "Ngôi nhà" }, { "word": "building", "pronunciation": "/ˈbɪl.dɪŋ/", "meaning": "Tòa nhà" }],
+          "sentencePatterns": [{ "pattern": "Where do you live? - I live in a [Home Type].", "example": "I live in a flat." }],
+          "languageSkills": ["Home types"],
+          "objectives": ["Identify flat, house, building.", "Ask 'Where do you live?'"],
+          "integrations": [{ "type": "Đạo đức", "code": "ETH-PRIM-01", "name": "Rèn thái độ lịch sự", "description": "Gợi ý bám SGK: rèn thái độ lịch sự, tự giác và tôn trọng người khác khi thực hành 'flat' trong Unit 2.", "source": "PPCT Grade 5" }]
+        },
+        {
+          "grade": 5, "week": 4, "period": 15, "unit": 2, "unitTitle": "Our homes!", "lesson": 3, "lessonPart": "Lesson 3", "title": "Lesson 3 - Listen and chant; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "building", "pronunciation": "/ˈbɪl.dɪŋ/", "meaning": "Tòa nhà" }, { "word": "flat", "pronunciation": "/flæt/", "meaning": "Căn hộ" }, { "word": "tower", "pronunciation": "/ˈtaʊ.ər/", "meaning": "Tòa tháp" }],
+          "sentencePatterns": [{ "pattern": "It's a big [Building].", "example": "It's a big tower." }],
+          "languageSkills": ["Building words"],
+          "objectives": ["Identify building, flat, tower.", "Pronounce /b/ and /f/."],
+          "integrations": [{ "type": "AI Literacy", "code": "5.A3.1", "name": "AI hỗ trợ luyện phát âm nhà ở", "description": "Dùng công cụ AI hỗ trợ nghe và luyện phát âm 'building', 'flat', 'house', 'tower'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "unitTitle": "Our free-time activities",
+      "weeks": [6, 7],
+      "lessons": [
+        {
+          "grade": 5, "week": 6, "period": 23, "unit": 4, "unitTitle": "Our free-time activities", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "play the violin", "pronunciation": "/pleɪ ðə ˌvaɪəˈlɪn/", "meaning": "Chơi vi-ô-lông" }, { "word": "go swimming", "pronunciation": "/ɡəʊ ˈswɪm.ɪŋ/", "meaning": "Đi bơi" }],
+          "sentencePatterns": [{ "pattern": "What do you do in your free time? - I [Activity].", "example": "What do you do in your free time? - I play the violin." }],
+          "languageSkills": ["Free time hobbies"],
+          "objectives": ["Identify free time activities.", "Express hobbies."],
+          "integrations": [{ "type": "AI Literacy", "code": "5.A3.1", "name": "AI nghe nói hoạt động rảnh rỗi", "description": "Dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'play the violin'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "unitTitle": "My future job",
+      "weeks": [8, 9],
+      "lessons": [
+        {
+          "grade": 5, "week": 8, "period": 29, "unit": 5, "unitTitle": "My future job", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "firefighter", "pronunciation": "/ˈfaɪə.faɪ.tər/", "meaning": "Lính chữa cháy" }, { "word": "gardener", "pronunciation": "/ˈɡɑː.dən.ər/", "meaning": "Thợ làm vườn" }, { "word": "reporter", "pronunciation": "/rɪˈpɔː.tər/", "meaning": "Phóng viên" }, { "word": "writer", "pronunciation": "/ˈraɪ.tər/", "meaning": "Nhà văn" }],
+          "sentencePatterns": [{ "pattern": "What would you like to be in the future? - I'd like to be a [Job].", "example": "I'd like to be a firefighter." }],
+          "languageSkills": ["Future jobs"],
+          "objectives": ["Identify firefighter, gardener, reporter, writer.", "Express future job aspirations."],
+          "integrations": [{ "type": "AI Literacy", "code": "5.C5.2", "name": "AI nhận diện nghề nghiệp tương lai", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'firefighter', 'gardener', 'reporter', 'writer'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "unitTitle": "Our school rooms",
+      "weeks": [10, 11],
+      "lessons": [
+        {
+          "grade": 5, "week": 10, "period": 37, "unit": 6, "unitTitle": "Our school rooms", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "second floor", "pronunciation": "/ˈsek.ənd flɔːr/", "meaning": "Tầng hai" }, { "word": "go upstairs", "pronunciation": "/ɡəʊ ˌʌpˈsteəz/", "meaning": "Đi lên tầng" }],
+          "sentencePatterns": [{ "pattern": "Where's the [Room]? - It's on the [Floor].", "example": "Where's the computer room? - It's on the second floor." }],
+          "languageSkills": ["School floors & rooms"],
+          "objectives": ["Identify school rooms and floors.", "Ask 'Where's the room?'"],
+          "integrations": [{ "type": "AI Literacy", "code": "5.C5.2", "name": "AI nhận diện tầng học second floor", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'second floor'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "unitTitle": "Our school trip",
+      "weeks": [16, 17],
+      "lessons": [
+        {
+          "grade": 5, "week": 17, "period": 65, "unit": 10, "unitTitle": "Our school trip", "lesson": 3, "lessonPart": "Lesson 3", "title": "Lesson 3 - Listen and chant; Read and complete", "duration": 35,
+          "vocabulary": [{ "word": "Ba Na Hills", "pronunciation": "/Bà Nà Hills/", "meaning": "Bà Nà Hills (Đà Nẵng)" }, { "word": "school trip", "pronunciation": "/skuːl trɪp/", "meaning": "Chuyến đi tham quan" }],
+          "sentencePatterns": [{ "pattern": "Where did you go on your school trip? - We went to [Place].", "example": "We went to Ba Na Hills." }],
+          "languageSkills": ["Past events & trip places"],
+          "objectives": ["Describe school trip places.", "Say Ba Na Hills."],
+          "integrations": [{ "type": "AI Literacy", "code": "5.C5.2", "name": "AI luyện phát âm địa danh Ba Na Hills", "description": "Dùng công cụ AI hỗ trợ nghe và luyện phát âm 'Ba Na Hills'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 12,
+      "unitTitle": "Our Tet holiday",
+      "weeks": [20, 21],
+      "lessons": [
+        {
+          "grade": 5, "week": 20, "period": 79, "unit": 12, "unitTitle": "Our Tet holiday", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "buy roses", "pronunciation": "/baɪ rəʊzɪz/", "meaning": "Mua hoa hồng" }, { "word": "decorate the house", "pronunciation": "/ˈdek.ə.reɪt ðə haʊs/", "meaning": "Trang trí nhà cửa" }, { "word": "make banh chung", "pronunciation": "/meɪk bánh chưng/", "meaning": "Gói bánh chưng" }],
+          "sentencePatterns": [{ "pattern": "What do you do before Tet? - I [Action].", "example": "I decorate the house." }],
+          "languageSkills": ["Tet preparations"],
+          "objectives": ["Identify Tet preparation activities.", "Say buy roses, decorate house, make banh chung."],
+          "integrations": [{ "type": "AI Literacy", "code": "5.C5.2", "name": "AI nhận diện hình ảnh Tết", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'buy roses', 'decorate the house', 'do the shopping', 'make banh chung'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 20,
+      "unitTitle": "Our summer holidays",
+      "weeks": [34, 35],
+      "lessons": [
+        {
+          "grade": 5, "week": 34, "period": 135, "unit": 20, "unitTitle": "Our summer holidays", "lesson": 3, "lessonPart": "Lesson 3", "title": "Lesson 3 - Listen and chant; Read and complete", "duration": 35,
+          "vocabulary": [{ "word": "Dam Sen Aquarium", "pronunciation": "/Đầm Sen/", "meaning": "Thủy cung Đầm Sen" }, { "word": "Huong River", "pronunciation": "/Hương River/", "meaning": "Sông Hương" }, { "word": "Phong Nha Cave", "pronunciation": "/Phong Nha/", "meaning": "Động Phong Nha" }, { "word": "Phu Quoc Island", "pronunciation": "/Phú Quốc/", "meaning": "Đảo Phú Quốc" }],
+          "sentencePatterns": [{ "pattern": "Where will you go this summer? - I'll go to [Place].", "example": "I'll go to Phu Quoc Island." }],
+          "languageSkills": ["Future summer plans"],
+          "objectives": ["Identify famous landmarks in Vietnam.", "Express summer holiday plans."],
+          "integrations": [{ "type": "AI Literacy", "code": "5.A1.1", "name": "AI hỗ trợ nghe nói danh lam thắng cảnh", "description": "Gợi ý bám SGK: dùng AI hỗ trợ nhận biết, luyện nghe/nói hoặc phản hồi với 'Dam Sen Aquarium', 'Huong River', 'Phong Nha Cave', 'Phu Quoc Island'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    }
+  ]
+}
