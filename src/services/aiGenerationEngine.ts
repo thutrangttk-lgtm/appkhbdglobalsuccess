@@ -98,7 +98,7 @@ Selected Integrations: ${JSON.stringify(selectedIntegrations)}
     integrations: IntegrationItem[]
   ): LessonPlanDocument {
     const docId = `LP-G${lesson.grade}-W${lesson.week}-U${lesson.unit}-L${lesson.lesson}-${Date.now()}`;
-    const activeIntegrations = integrations.length > 0 ? integrations : lesson.integrationCandidates;
+    const activeIntegrations: IntegrationItem[] = (integrations && integrations.length > 0) ? integrations : (lesson.integrationCandidates || []);
 
     // Formatting Language Focus and Targets
     const vocabFocusStr = lesson.vocabulary
