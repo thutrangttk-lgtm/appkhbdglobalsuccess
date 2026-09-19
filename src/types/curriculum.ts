@@ -37,15 +37,21 @@ export interface IntegrationItem {
   requiresCodeVerification?: boolean;
 }
 
+export type CurriculumContentType = 'STARTER' | 'UNIT_LESSON' | 'REVIEW' | 'EXTENSION' | 'OTHER';
+
 export interface LessonData {
   grade: number; // 1, 2, 3, 4, 5
   week: number; // 1 -> 35
   period: number; // e.g. 1, 2, 3...
-  unit: number; // e.g. 1
-  unitTitle: string; // e.g. "In the school playground"
-  lesson: number; // e.g. 1, 2, 3
+
+  contentType?: CurriculumContentType; // STARTER | UNIT_LESSON | REVIEW | EXTENSION | OTHER
+  contentTypeLabel?: string; // "Starter" | "Unit 1" | "Review 1" | "Extension" | "Fun time 1"
+
+  unit?: number; // Optional (undefined for Starter, Review, Extension)
+  unitTitle?: string; // Optional (undefined for Starter, Review, Extension)
+  lesson?: number; // Optional (undefined for Starter, Review, Extension)
   lessonPart?: string; // e.g. "Lesson 1"
-  title: string; // e.g. "Lesson 1 - Look, listen and repeat; Point and say"
+  title: string; // e.g. "Look, listen and repeat; Point and say" or "Review 1" or "Starter"
   durationMinutes?: number; // 35
   duration?: number; // 35
   vocabulary: VocabularyItem[];
