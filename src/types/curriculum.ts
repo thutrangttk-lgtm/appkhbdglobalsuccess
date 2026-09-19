@@ -9,6 +9,15 @@ export interface SentencePatternItem {
   example: string;
 }
 
+export interface OfficialIntegration {
+  type: string; // 'AI Literacy' | 'Digital Competence' | 'Đạo đức' | 'An toàn giao thông' | 'Bảo vệ môi trường' | 'STEM' | 'Chuyển đổi số' | 'Quyền trẻ em'
+  code?: string;
+  name: string;
+  description: string;
+  source: string;
+  sourceReference?: string;
+}
+
 export interface ActivityStage {
   stageName: string; // "1. Warm-up", "2. Presentation", "3. Practice & Application", "4. Consolidation & Homework"
   durationMinutes: number; // 5, 10, 15, 5
@@ -33,25 +42,34 @@ export interface LessonData {
   week: number; // 1 -> 35
   period: number; // e.g. 1, 2, 3...
   unit: number; // e.g. 1
-  unitTitle: string; // e.g. "ALL ABOUT ME!"
+  unitTitle: string; // e.g. "In the school playground"
   lesson: number; // e.g. 1, 2, 3
-  title: string; // e.g. "Lesson 2 - Activity 1, 2, 3"
-  durationMinutes: number; // Always 35 for primary
+  lessonPart?: string; // e.g. "Lesson 1"
+  title: string; // e.g. "Lesson 1 - Look, listen and repeat; Point and say"
+  durationMinutes?: number; // 35
+  duration?: number; // 35
   vocabulary: VocabularyItem[];
   sentencePatterns: SentencePatternItem[];
   languageSkills: string[];
   objectives: {
-    languageKnowledge: string[];
-    languageSkills: string[];
-    generalCompetences: string[];
-    qualities: string[];
-  };
-  activities: ActivityStage[];
-  integrationCandidates: IntegrationItem[];
+    languageKnowledge?: string[];
+    languageSkills?: string[];
+    generalCompetences?: string[];
+    qualities?: string[];
+  } | string[];
+  activities?: ActivityStage[];
+  integrations?: OfficialIntegration[];
+  integrationCandidates?: IntegrationItem[];
+  source?: string;
+  sourceFile?: string;
 }
 
 export interface CurriculumDataStore {
   grade: number;
+  totalWeeks: number;
+  totalPeriods: number;
+  source: string;
+  sourceFile: string;
   units: {
     unit: number;
     unitTitle: string;
@@ -59,3 +77,4 @@ export interface CurriculumDataStore {
     lessons: LessonData[];
   }[];
 }
+
