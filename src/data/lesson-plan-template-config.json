@@ -1,0 +1,50 @@
+{
+  "regulation": "Công văn 2345/BGDĐT-GDTH",
+  "documentTitle": "LESSON PLAN GRADE {grade} – GLOBAL SUCCESS",
+  "durationMinutesTotal": 35,
+  "headerStructure": {
+    "governingBody": "HIEP PHUOC COMMUNE PEOPLE'S COMMITTEE",
+    "schoolName": "TRAN TAN KHUONG PRIMARY SCHOOL",
+    "teacherName": "Tran Thi Thu Trang"
+  },
+  "sections": [
+    {
+      "id": "OBJECTIVES",
+      "title": "I. OBJECTIVES",
+      "subSections": [
+        "1. Language Knowledge & Skills (a. Vocabulary, b. Sentence Patterns, c. Language Skills & Competences)",
+        "2. Integration (Single content-based integration section)"
+      ]
+    },
+    {
+      "id": "TEACHING_AIDS",
+      "title": "II. TEACHING AIDS AND LEARNING MATERIALS",
+      "subSections": ["Teacher equipment", "Pupil equipment"]
+    },
+    {
+      "id": "TEACHING_PROCEDURES",
+      "title": "III. TEACHING PROCEDURES",
+      "tableColumns": [
+        "LEARNING ACTIVITIES",
+        "EXPECTED OUTCOMES & EVIDENCE OF INTEGRATION",
+        "POST-LESSON ADJUSTMENTS"
+      ],
+      "mandatoryStages": [
+        { "name": "1. Warm-up", "defaultDuration": 5 },
+        { "name": "2. Presentation", "defaultDuration": 10 },
+        { "name": "3. Practice & Application", "defaultDuration": 15 },
+        { "name": "4. Consolidation & Homework", "defaultDuration": 5 }
+      ]
+    },
+    {
+      "id": "POST_LESSON_REFLECTION",
+      "title": "Post-lesson Reflection",
+      "description": "Giáo viên ghi rút kinh nghiệm sau tiết dạy"
+    },
+    {
+      "id": "SIGNATURES",
+      "title": "Signatures",
+      "roles": ["BAN GIÁM HIỆU", "TỔ TRƯỜNG"]
+    }
+  ]
+}

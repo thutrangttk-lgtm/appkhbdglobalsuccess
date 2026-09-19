@@ -1,0 +1,76 @@
+{
+  "grade": 4,
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "MY FRIENDS",
+      "weeks": [1, 2],
+      "lessons": [
+        {
+          "grade": 4,
+          "week": 1,
+          "period": 1,
+          "unit": 1,
+          "unitTitle": "MY FRIENDS",
+          "lesson": 1,
+          "title": "Lesson 1 - Look, listen and repeat; Point and say; Let's talk",
+          "durationMinutes": 35,
+          "vocabulary": [
+            { "word": "Britain", "pronunciation": "/ˈbrɪt.ən/", "meaning": "nước Anh" },
+            { "word": "Vietnam", "pronunciation": "/ˌvjetˈnæm/", "meaning": "Việt Nam" },
+            { "word": "America", "pronunciation": "/əˈmer.ɪ.kə/", "meaning": "nước Mỹ" },
+            { "word": "Singapore", "pronunciation": "/ˌsɪŋ.əˈpɔːr/", "meaning": "Singapore" }
+          ],
+          "sentencePatterns": [
+            { "pattern": "Where are you from? - I'm from [Country].", "example": "Where are you from? - I'm from Vietnam." }
+          ],
+          "languageSkills": ["Asking and answering about origin/country"],
+          "objectives": {
+            "languageKnowledge": [
+              "Pupils master asking 'Where are you from?' and replying 'I'm from [Country]'.",
+              "Pupils learn country names: Britain, Vietnam, America, Singapore."
+            ],
+            "languageSkills": ["Listening to national flags context", "Speaking country names."],
+            "generalCompetences": ["Global awareness and intercultural understanding."],
+            "qualities": ["National pride and respect for international friends."]
+          },
+          "activities": [
+            {
+              "stageName": "1. Warm-up",
+              "durationMinutes": 5,
+              "teacherActivities": ["Show world map and flags on smart board."],
+              "pupilActivities": ["Identify flags of Vietnam, Britain, America."],
+              "expectedOutcomes": ["Interest excited."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "2. Presentation",
+              "durationMinutes": 10,
+              "teacherActivities": ["Present question 'Where are you from?'.", "Play audio."],
+              "pupilActivities": ["Listen and repeat structure."],
+              "expectedOutcomes": ["Structure comprehension."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "3. Practice & Application",
+              "durationMinutes": 15,
+              "teacherActivities": ["Organize flag card role-play game."],
+              "pupilActivities": ["Pick flag cards and ask partners."],
+              "expectedOutcomes": ["Fluent QA."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "4. Consolidation & Homework",
+              "durationMinutes": 5,
+              "teacherActivities": ["Recap key pattern.", "Assign homework."],
+              "pupilActivities": ["Note down homework."],
+              "expectedOutcomes": ["Lesson completed."],
+              "postLessonAdjustments": ""
+            }
+          ],
+          "integrationCandidates": []
+        }
+      ]
+    }
+  ]
+}

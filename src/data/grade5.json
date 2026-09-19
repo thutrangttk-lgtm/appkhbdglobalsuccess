@@ -1,0 +1,284 @@
+{
+  "grade": 5,
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "ALL ABOUT ME!",
+      "weeks": [1, 2],
+      "lessons": [
+        {
+          "grade": 5,
+          "week": 1,
+          "period": 1,
+          "unit": 1,
+          "unitTitle": "ALL ABOUT ME!",
+          "lesson": 1,
+          "title": "Lesson 1 - Look, listen and repeat; Point and say; Let's talk",
+          "durationMinutes": 35,
+          "vocabulary": [
+            { "word": "address", "pronunciation": "/əˈdres/", "meaning": "địa chỉ" },
+            { "word": "lane", "pronunciation": "/leɪn/", "meaning": "ngõ, hẻm" },
+            { "word": "street", "pronunciation": "/striːt/", "meaning": "đường phố" },
+            { "word": "avenue", "pronunciation": "/ˈæv.ə.njuː/", "meaning": "đại lộ" },
+            { "word": "flat", "pronunciation": "/flæt/", "meaning": "căn hộ" }
+          ],
+          "sentencePatterns": [
+            { "pattern": "What's your address? - It's [Address].", "example": "What's your address? - It's 75 Hoa Binh Lane." }
+          ],
+          "languageSkills": ["Asking and telling addresses", "Listening and reading street address vocabulary"],
+          "objectives": {
+            "languageKnowledge": [
+              "By the end of the lesson, pupils will be able to ask and answer about addresses using 'What's your address? - It's...'",
+              "Pupils can correctly pronounce and use vocabulary: address, lane, street, avenue, flat."
+            ],
+            "languageSkills": [
+              "Listen and understand conversations about personal addresses.",
+              "Ask and answer questions about personal addresses fluently."
+            ],
+            "generalCompetences": [
+              "Autonomy and self-learning: Pupils prepare personal notes about their living area.",
+              "Communication and cooperation: Pupils interview partners in class politely."
+            ],
+            "qualities": [
+              "Show responsibility and safety awareness regarding personal address information."
+            ]
+          },
+          "activities": [
+            {
+              "stageName": "1. Warm-up",
+              "durationMinutes": 5,
+              "teacherActivities": [
+                "Greet the class warmly ('Good morning/afternoon class! How are you today?').",
+                "Show pictures of different living environments (lane, street, tower, flat) on smartboard.",
+                "Ask pupils: 'Where do you live?' to activate background knowledge about address."
+              ],
+              "pupilActivities": [
+                "Greet teacher warmly ('Good morning/afternoon teacher!').",
+                "Observe pictures attentively and call out familiar words in Vietnamese or English.",
+                "Share where they live with class and seatmates."
+              ],
+              "expectedOutcomes": [
+                "100% of pupils are engaged, motivated, and mentally ready for the lesson.",
+                "Pupils successfully activate background knowledge about addresses."
+              ],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "2. Presentation",
+              "durationMinutes": 10,
+              "teacherActivities": [
+                "[LANGUAGE FOCUS]: Present target vocabulary: \"address\" (/əˈdres/), \"lane\" (/leɪn/), \"street\" (/striːt/), \"avenue\" (/ˈæv.ə.njuː/), \"flat\" (/flæt/) with flashcards and clear pronunciation.",
+                "[LANGUAGE TARGET / PATTERNS]: Elicit target sentence structure: \"What's your address? - It's [75 Hoa Binh Lane]\". Model natural intonation.",
+                "Play audio track for Activity 1 (Look, listen and repeat). Pause for choral, row, and individual repetition.",
+                "Check pupil pronunciation and correct stress errors."
+              ],
+              "pupilActivities": [
+                "Listen to audio track and repeat vocabulary: \"address\", \"lane\", \"street\", \"avenue\", \"flat\" in chorus and individually.",
+                "Track dialogue in textbook while listening.",
+                "Repeat sentence structure: \"What's your address? - It's...\" with partner."
+              ],
+              "expectedOutcomes": [
+                "85%+ of pupils correctly pronounce target address vocabulary with clear stress.",
+                "Pupils understand sentence structure \"What's your address? - It's...\"",
+                "Evidence of Integration [Digital Competence - DIG-PRIM-01]: Pupils practice repeating target audio with interactive digital audio player."
+              ],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "3. Practice & Application",
+              "durationMinutes": 15,
+              "teacherActivities": [
+                "[PRACTICE WITH LANGUAGE FOCUS]: Guide Activity 2 (Point and say) with prompts: 75 Hoa Binh Lane, 81 Tran Hung Dao Street, 12 Green Avenue, Flat 5 on second floor.",
+                "[APPLICATION WITH LANGUAGE TARGET]: Organize 'Classroom Address Interview' game: Pupils move around and ask partners: \"What's your address? - It's...\"",
+                "Monitor pairs, offer feedback, and encourage polite communication.",
+                "Invite 3-4 pupil pairs to demonstrate dialogue in front of class."
+              ],
+              "pupilActivities": [
+                "Point to textbook picture prompts and practice saying address sentences with partners.",
+                "Role-play asking and answering classmates' addresses in pairwork.",
+                "Demonstrate dialogue in front of class with confidence."
+              ],
+              "expectedOutcomes": [
+                "90%+ of pupils fluently communicate addresses using target structure.",
+                "Pupils demonstrate active collaboration and polite communication in pairwork.",
+                "Evidence of Integration [Ethics - ETH-PRIM-01]: Pupils practice polite greeting and respectful listening during interview game."
+              ],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "4. Consolidation & Homework",
+              "durationMinutes": 5,
+              "teacherActivities": [
+                "Summarize target vocabulary (\"address\", \"lane\", \"street\", \"avenue\", \"flat\") and structure (\"What's your address?\").",
+                "Integrate Safety & Privacy: Remind pupils to only share personal address with trusted people.",
+                "Assign workbook page 6 and home practice task."
+              ],
+              "pupilActivities": [
+                "Recap address words and sentence patterns together with teacher.",
+                "Note down homework assignment and say 'Goodbye teacher!'."
+              ],
+              "expectedOutcomes": [
+                "Pupils remember key language focus and sentence patterns.",
+                "Orderly lesson conclusion with privacy awareness.",
+                "Evidence of Integration [Digital Safety - NLS 4.2.CB1b]: Pupils demonstrate awareness of protecting personal address privacy."
+              ],
+              "postLessonAdjustments": ""
+            }
+          ],
+          "integrationCandidates": [
+            {
+              "id": "INT-DIG-01",
+              "category": "Digital Competence",
+              "code": "DIG-PRIM-01",
+              "title": "Digital Audio Pronunciation Practice",
+              "description": "Practicing address vocabulary using digital audio tracks.",
+              "suggestedActivities": ["Pupils listen and repeat with interactive audio track."],
+              "requiresCodeVerification": false
+            }
+          ]
+        },
+        {
+          "grade": 5,
+          "week": 1,
+          "period": 2,
+          "unit": 1,
+          "unitTitle": "ALL ABOUT ME!",
+          "lesson": 2,
+          "title": "Lesson 2 - Look, listen and repeat; Point and say; Let's talk",
+          "durationMinutes": 35,
+          "vocabulary": [
+            { "word": "hometown", "pronunciation": "/ˈhəʊm.taʊn/", "meaning": "quê hương" },
+            { "word": "city", "pronunciation": "/ˈsɪt.i/", "meaning": "thành phố" },
+            { "word": "mountain", "pronunciation": "/ˈmaʊn.tɪn/", "meaning": "núi, vùng núi" },
+            { "word": "village", "pronunciation": "/ˈvɪl.ɪdʒ/", "meaning": "ngôi làng, thôn" },
+            { "word": "tower", "pronunciation": "/ˈtaʊ.ər/", "meaning": "tòa tháp" }
+          ],
+          "sentencePatterns": [
+            { "pattern": "What's your hometown like? - It's [Adjective].", "example": "What's your hometown like? - It's big and busy." },
+            { "pattern": "Where do you live? - I live in [Place].", "example": "Where do you live? - I live in a quiet village." }
+          ],
+          "languageSkills": ["Describing hometowns and places", "Asking about living environment characteristics"],
+          "objectives": {
+            "languageKnowledge": [
+              "By the end of the lesson, pupils will be able to ask and describe what a place/hometown is like using 'What's your hometown like? - It's...'",
+              "Pupils master vocabulary describing places: hometown, city, mountain, village, tower, quiet, busy, large, pretty."
+            ],
+            "languageSkills": [
+              "Listen to descriptions of hometowns and living places.",
+              "Speak about their own hometown with appropriate adjectives."
+            ],
+            "generalCompetences": [
+              "Autonomy: Pupils reflect on their hometown scenery and characteristics.",
+              "Communication: Collaborate in pairs to exchange hometown descriptions."
+            ],
+            "qualities": [
+              "Love for homeland and environmental awareness of local surroundings."
+            ]
+          },
+          "activities": [
+            {
+              "stageName": "1. Warm-up",
+              "durationMinutes": 5,
+              "teacherActivities": [
+                "Greet the class warmly.",
+                "Show pictures of different hometowns in Vietnam (mountains, coastal cities, quiet villages) on smartboard.",
+                "Play a short guessing game: 'Which hometown is this?'"
+              ],
+              "pupilActivities": [
+                "Greet teacher enthusiastically.",
+                "Guess the places from picture clues.",
+                "Share the name of their hometown with seatmates."
+              ],
+              "expectedOutcomes": [
+                "100% pupil engagement and interest excited.",
+                "Background knowledge about hometown descriptions activated."
+              ],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "2. Presentation",
+              "durationMinutes": 10,
+              "teacherActivities": [
+                "[LANGUAGE FOCUS]: Present new words: \"hometown\" (/ˈhəʊm.taʊn/), \"city\" (/ˈsɪt.i/), \"mountain\" (/ˈmaʊn.tɪn/), \"village\" (/ˈvɪl.ɪdʒ/), \"tower\" (/ˈtaʊ.ər/) with flashcards and stress modeling.",
+                "[LANGUAGE TARGET / PATTERNS]: Elicit target structure: \"What's your hometown like? - It's [big and busy / quiet and small]\". Model intonation.",
+                "Play audio for Activity 1 (Look, listen and repeat). Pause for repetition.",
+                "Check stress and pronunciation of Wh-questions."
+              ],
+              "pupilActivities": [
+                "Listen to audio and repeat words and sentences in chorus and individually.",
+                "Read dialogue in pairs focusing on stress and intonation.",
+                "Practice asking and answering with target structure."
+              ],
+              "expectedOutcomes": [
+                "85%+ of pupils pronounce target hometown vocabulary accurately.",
+                "Pupils master sentence structure \"What's your hometown like? - It's...\"",
+                "Evidence of Integration [AI Literacy - AIL-PRIM-02]: Pupils use AI smart assistant to practice speaking hometown sentences."
+              ],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "3. Practice & Application",
+              "durationMinutes": 15,
+              "teacherActivities": [
+                "[PRACTICE WITH LANGUAGE FOCUS]: Guide Activity 2 (Point and say) with prompts: a. mountain / quiet, b. city / big and busy, c. village / small and pretty, d. tower / high and modern.",
+                "[APPLICATION WITH LANGUAGE TARGET]: Organize 'Hometown Reporter' game for Activity 3 (Let's talk): One pupil acts as a TV reporter asking classmates: \"What's your hometown like? - It's...\"",
+                "Monitor pairs, offer constructive feedback, and encourage active participation.",
+                "Invite 3 pupil reporter pairs to present dialogue."
+              ],
+              "pupilActivities": [
+                "Practice pointing and saying with partners.",
+                "Role-play as reporter and interviewee asking and answering about hometowns.",
+                "Demonstrate dialogue in front of class with confidence."
+              ],
+              "expectedOutcomes": [
+                "90%+ of pupils describe hometowns fluently using target adjectives.",
+                "Active collaborative pairwork with high confidence.",
+                "Evidence of Integration [Environmental Education - ENV-PRIM-01]: Pupils connect hometown descriptions with keeping local nature clean."
+              ],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "4. Consolidation & Homework",
+              "durationMinutes": 5,
+              "teacherActivities": [
+                "Summarize hometown vocabulary and target structure.",
+                "Integrate Environmental Protection: Remind pupils to keep their hometown clean and beautiful.",
+                "Assign workbook page 7."
+              ],
+              "pupilActivities": [
+                "Recap target words with teacher.",
+                "Take notes on homework assignment in notebooks."
+              ],
+              "expectedOutcomes": [
+                "Lesson content consolidated.",
+                "Environmental protection message reinforced.",
+                "Evidence of Integration [Environmental Education]: Hometown environmental awareness message established."
+              ],
+              "postLessonAdjustments": ""
+            }
+          ],
+          "integrationCandidates": [
+            {
+              "id": "INT-ENV-01",
+              "category": "Environmental Education",
+              "code": "ENV-PRIM-01",
+              "title": "Hometown Environmental Protection",
+              "description": "Connecting hometown descriptions with keeping local nature clean.",
+              "suggestedActivities": ["Discuss keeping hometown villages and cities clean and green."],
+              "requiresCodeVerification": false
+            },
+            {
+              "id": "INT-AIL-01",
+              "category": "AI Literacy",
+              "code": "AIL-PRIM-02",
+              "title": "AI Smart Assistant Pronunciation Practice",
+              "description": "Using AI tool to practice speaking hometown sentences.",
+              "suggestedActivities": ["Pupils practice speaking 'What's your hometown like?' with smart pronunciation tool."],
+              "requiresCodeVerification": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "INT-AI-01",
+    "category": "AI Literacy",
+    "code": "AIL-PRIM-01",
+    "title": "AI Image Recognition & Flashcard Sorting",
+    "description": "Using AI camera vision or smart tools to identify target objects and vocabulary.",
+    "suggestedActivities": [
+      "Pupils observe AI smart board identifying vocabulary flashcards automatically.",
+      "Pupils test an educational AI tool by showing printed vocabulary pictures."
+    ],
+    "requiresCodeVerification": false
+  },
+  {
+    "id": "INT-DIG-01",
+    "category": "Digital Competence",
+    "code": "DIG-PRIM-02",
+    "title": "Interactive Audio & Pronunciation Practice",
+    "description": "Using digital audio tools to record and compare pupil pronunciation.",
+    "suggestedActivities": [
+      "Pupils listen to native audio tracks on interactive software and repeat.",
+      "Pupils use digital recorder app to record their sentence speaking."
+    ],
+    "requiresCodeVerification": false
+  },
+  {
+    "id": "INT-ETH-01",
+    "category": "Ethics",
+    "code": "ETH-PRIM-01",
+    "title": "Polite Communication & Gratitude",
+    "description": "Developing polite greeting habits and showing gratitude to teachers, parents, and friends.",
+    "suggestedActivities": [
+      "Role-play greeting classmates with 'Hello', 'Thank you', and 'Goodbye'.",
+      "Discuss polite behavior during group games."
+    ],
+    "requiresCodeVerification": false
+  },
+  {
+    "id": "INT-ENV-01",
+    "category": "Environmental Education",
+    "code": "ENV-PRIM-01",
+    "title": "Love for Nature & Classroom Cleanliness",
+    "description": "Connecting lesson vocabulary (animals, nature, schoolyard) with environmental protection.",
+    "suggestedActivities": [
+      "Identify nature vocabulary and practice keeping the classroom clean.",
+      "Sorting picture cards of clean vs polluted environments."
+    ],
+    "requiresCodeVerification": false
+  },
+  {
+    "id": "INT-STEM-01",
+    "category": "STEM",
+    "code": "STEM-PRIM-01",
+    "title": "Shape & Color Pattern Classification",
+    "description": "Integrating math, logic, and English vocabulary by sorting objects by color and shape.",
+    "suggestedActivities": [
+      "Grouping school objects by color and shape using English words.",
+      "Building a simple mini-project with craft paper."
+    ],
+    "requiresCodeVerification": false
+  },
+  {
+    "id": "INT-LIFE-01",
+    "category": "Life Skills",
+    "code": "LIFE-PRIM-01",
+    "title": "Self-Management & Team Collaboration",
+    "description": "Fostering autonomy in preparing learning aids and collaborating in pairwork.",
+    "suggestedActivities": [
+      "Pupils organize their own textbooks, workbooks, and flashcards before practice.",
+      "Pupils take turns taking leader role in group practice."
+    ],
+    "requiresCodeVerification": false
+  }
+]

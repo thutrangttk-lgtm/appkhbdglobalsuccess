@@ -1,0 +1,20 @@
+[
+  {
+    "code": "AIL-PRIM-01",
+    "competence": "Understanding AI Basics",
+    "standard": "Recognizes that smart devices can listen, see, and respond to English commands.",
+    "gradeLevel": "1-3"
+  },
+  {
+    "code": "AIL-PRIM-02",
+    "competence": "Human-AI Collaboration",
+    "standard": "Uses AI pronunciation assistant as a practicing tool alongside teacher guidance.",
+    "gradeLevel": "3-5"
+  },
+  {
+    "code": "AIL-PRIM-03",
+    "competence": "AI Ethics & Safety",
+    "standard": "Understands not to share personal private information when speaking with AI assistants.",
+    "gradeLevel": "4-5"
+  }
+]

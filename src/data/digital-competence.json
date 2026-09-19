@@ -1,0 +1,20 @@
+[
+  {
+    "code": "DIG-PRIM-01",
+    "competence": "Digital Media Operation",
+    "standard": "Operates digital audio tracks, clicks on interactive textbook links under teacher guidance.",
+    "gradeLevel": "1-5"
+  },
+  {
+    "code": "DIG-PRIM-02",
+    "competence": "Digital Communication",
+    "standard": "Practices listening and repeating with high-quality digital voice models.",
+    "gradeLevel": "1-5"
+  },
+  {
+    "code": "DIG-PRIM-03",
+    "competence": "Digital Content Creation",
+    "standard": "Creates simple digital drawing cards matching target vocabulary.",
+    "gradeLevel": "3-5"
+  }
+]

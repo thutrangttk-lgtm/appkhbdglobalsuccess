@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Khai thác dữ liệu và thông tin số",
+    "codes": [
+      { "code": "NLS 1.1.CB1a", "description": "Xác định được nhu cầu thông tin và tìm kiếm dữ liệu, thông tin, nội dung số đơn giản trong môi trường số dưới sự hướng dẫn." },
+      { "code": "NLS 1.1.CB2a", "description": "Xác định được nhu cầu thông tin và tìm được dữ liệu, thông tin, nội dung số thông qua tìm kiếm đơn giản trong môi trường số." },
+      { "code": "NLS 1.3.CB1a", "description": "Xác định được cách tổ chức, lưu trữ và truy xuất dữ liệu, thông tin và nội dung số đơn giản trong môi trường số; thực hiện đăng nhập hệ thống học liệu theo hướng dẫn." }
+    ]
+  },
+  {
+    "category": "Giao tiếp và hợp tác trong môi trường số",
+    "codes": [
+      { "code": "NLS 2.1.CB1a", "description": "Lựa chọn được công nghệ số đơn giản để tương tác trong hoạt động học tập, trò chơi ôn tập có hướng dẫn." },
+      { "code": "NLS 2.1.CB2a", "description": "Lựa chọn được các công nghệ số đơn giản để tương tác trong hoạt động học tập và trò chơi ôn tập." },
+      { "code": "CĐS", "description": "Sử dụng được một số chức năng và tính năng cơ bản của điện thoại thông minh để ghi âm phát âm, chụp ảnh bài làm và gửi bài của mình vào Zalo cho cô giáo." }
+    ]
+  },
+  {
+    "category": "Sáng tạo nội dung số",
+    "codes": [
+      { "code": "NLS 3.1.CB1a", "description": "Xác định được cách tạo và chỉnh sửa nội dung số đơn giản bằng phần mềm vẽ phù hợp." },
+      { "code": "NLS 3.1.CB2a", "description": "Xác định được các cách tạo và chỉnh sửa nội dung số đơn giản ở các định dạng đơn giản bằng phần mềm phù hợp." }
+    ]
+  },
+  {
+    "category": "An toàn và bảo vệ số",
+    "codes": [
+      { "code": "NLS 4.1.CB1b", "description": "Phân biệt được rủi ro và mối đe dọa đơn giản trong môi trường số, như quảng cáo hoặc nút tải xuống không an toàn." },
+      { "code": "NLS 4.1.CB2b", "description": "Hiểu được rủi ro và mối đe dọa trong môi trường số và lựa chọn cách thức bảo vệ thiết bị, nội dung số khi tải xuống hoặc truy cập nội dung." },
+      { "code": "NLS 4.2.CB1a", "description": "Lựa chọn được những cách thức đơn giản để bảo vệ dữ liệu cá nhân và quyền riêng tư trong môi trường số: không nhìn, không tiết lộ mật khẩu của người khác." },
+      { "code": "NLS 4.2.CB1b", "description": "Nhận biết được cách sử dụng và chia sẻ thông tin định danh cá nhân an toàn; không chia sẻ địa chỉ nhà hoặc vị trí riêng tư lên môi trường mạng." },
+      { "code": "NLS 4.2.CB2a", "description": "Lựa chọn được cách thức đơn giản để bảo vệ dữ liệu cá nhân và quyền riêng tư trong môi trường số." },
+      { "code": "NLS 4.2.CB2b", "description": "Nhận biết được các cách sử dụng và chia sẻ thông tin định danh cá nhân một cách an toàn, có khả năng bảo vệ bản thân và người khác." },
+      { "code": "NLS 4.3.CB1a", "description": "Phân biệt được cách thức đơn giản để tránh rủi ro đến sức khỏe thể chất khi sử dụng thiết bị số: nghỉ ngơi, vận động và giữ tư thế phù hợp." },
+      { "code": "NLS 4.3.CB2a", "description": "Phân biệt được các cách thức đơn giản để tránh rủi ro và đe dọa đến sức khỏe thể chất và tinh thần khi sử dụng công nghệ số." }
+    ]
+  }
+]

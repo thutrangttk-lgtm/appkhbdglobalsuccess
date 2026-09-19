@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Đạo đức",
+    "title": "Rèn thái độ lịch sự, tự giác và tôn trọng người khác",
+    "description": "Rèn luyện nét văn hóa ứng xử lịch sự, tự giác thực hành và tôn trọng người khác trong các bài luyện phát âm, làm việc cặp/nhóm.",
+    "applicableTopics": ["Giao tiếp", "Trường học", "Gia đình", "Sinh nhật", "Bạn bè"]
+  },
+  {
+    "category": "Bảo vệ môi trường",
+    "title": "Ý thức bảo vệ môi trường và giữ gìn thiên nhiên",
+    "description": "Liên hệ bảo vệ môi trường, giữ gìn nguồn nước, cây xanh, bảo vệ động vật qua các từ vựng chủ đề thiên nhiên, công viên, biển, nông trại.",
+    "applicableTopics": ["Công viên", "Biển", "Nông trại", "Thú cưng", "Mùa hè", "Thời tiết"]
+  },
+  {
+    "category": "An toàn giao thông",
+    "title": "Liên hệ an toàn khi tham gia giao thông",
+    "description": "Giáo dục ý thức an toàn giao thông qua các từ vựng chỉ phương tiện giao thông (bus, bike, car, train, truck, street, road...).",
+    "applicableTopics": ["Phương tiện giao thông", "Đường phố", "Đi lại"]
+  },
+  {
+    "category": "STEM / STEAM",
+    "title": "Hoạt động quan sát, ghép và phân loại đối tượng",
+    "description": "Tổ chức hoạt động phân loại thẻ từ, hình ảnh theo chủ đề, hoặc khám phá khoa học đơn giản (máy lọc nước, phân loại rác...).",
+    "applicableTopics": ["Đồ dùng học tập", "Đồ chơi", "Đồ ăn thức uống", "Hình khối & Màu sắc"]
+  },
+  {
+    "category": "Giáo dục địa phương",
+    "title": "Liên hệ danh lam thắng cảnh và di tích địa phương",
+    "description": "Mở rộng liên hệ đến địa danh, thắng cảnh nổi tiếng của Việt Nam (Đầm Sen Aquarium, Sông Hương, Động Phong Nha, Đảo Phú Quốc, Chợ Bến Thành...).",
+    "applicableTopics": ["Du lịch mùa hè", "Chuyến đi trường học", "Miền quê", "Cửa hàng"]
+  },
+  {
+    "category": "Quyền con người & Quyền trẻ em",
+    "title": "Liên hệ quyền trẻ em được vui chơi, học tập an toàn",
+    "description": "Liên hệ quyền trẻ em trong bối cảnh các hoạt động công viên, vui chơi, học tập và đời sống cá nhân.",
+    "applicableTopics": ["Công viên", "Trường học", "Gia đình", "Khu cắm trại"]
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "grade": 2,
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "IN THE SHOPPING MALL",
+      "weeks": [1, 2],
+      "lessons": [
+        {
+          "grade": 2,
+          "week": 1,
+          "period": 1,
+          "unit": 1,
+          "unitTitle": "IN THE SHOPPING MALL",
+          "lesson": 1,
+          "title": "Lesson 1 - Look, listen and repeat; Point and say",
+          "durationMinutes": 35,
+          "vocabulary": [
+            { "word": "mop", "pronunciation": "/mɒp/", "meaning": "cây lau nhà" },
+            { "word": "map", "pronunciation": "/mæp/", "meaning": "bản đồ" },
+            { "word": "mango", "pronunciation": "/ˈmæŋɡəʊ/", "meaning": "quả xoài" },
+            { "word": "milk", "pronunciation": "/mɪlk/", "meaning": "sữa" }
+          ],
+          "sentencePatterns": [
+            { "pattern": "I can see a [Object].", "example": "I can see a map." },
+            { "pattern": "I like [Food/Drink].", "example": "I like milk." }
+          ],
+          "languageSkills": ["Sound /m/ recognition", "Expressing preferences ('I like...')"],
+          "objectives": {
+            "languageKnowledge": [
+              "Pupils learn the sound /m/ and vocabulary: mop, map, mango, milk.",
+              "Pupils practice the pattern 'I can see a... / I like...'"
+            ],
+            "languageSkills": ["Listening to /m/ sound", "Speaking food and object words."],
+            "generalCompetences": ["Self-regulation in learning tasks."],
+            "qualities": ["Appreciating healthy food like milk and fruits."]
+          },
+          "activities": [
+            {
+              "stageName": "1. Warm-up",
+              "durationMinutes": 5,
+              "teacherActivities": ["Play shopping mall introductory video clip."],
+              "pupilActivities": ["Watch clip and name familiar items."],
+              "expectedOutcomes": ["Interest in shopping mall topic."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "2. Presentation",
+              "durationMinutes": 10,
+              "teacherActivities": ["Introduce letter M/m and sound /m/.", "Present flashcards."],
+              "pupilActivities": ["Repeat /m/ sound and target words."],
+              "expectedOutcomes": ["Clear sound /m/ pronunciation."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "3. Practice & Application",
+              "durationMinutes": 15,
+              "teacherActivities": ["Organize 'I can see' speaking game in pairs."],
+              "pupilActivities": ["Practice saying 'I can see a map' to partners."],
+              "expectedOutcomes": ["Active pair practice."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "4. Consolidation & Homework",
+              "durationMinutes": 5,
+              "teacherActivities": ["Review vocabulary and wrap up."],
+              "pupilActivities": ["Repeat vocabulary together."],
+              "expectedOutcomes": ["Lesson recap."],
+              "postLessonAdjustments": ""
+            }
+          ],
+          "integrationCandidates": []
+        }
+      ]
+    }
+  ]
+}

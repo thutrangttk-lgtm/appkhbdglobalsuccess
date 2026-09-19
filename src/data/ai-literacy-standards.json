@@ -1,0 +1,155 @@
+[
+  {
+    "grade": 1,
+    "strandCode": "NLa",
+    "strandName": "Tư duy lấy con người làm trung tâm",
+    "standards": [
+      { "code": "1.A1.1", "description": "Nêu được ví dụ về một số cảm xúc quen thuộc của con người; bước đầu nhận ra rằng con người có cảm xúc còn AI thì không." },
+      { "code": "1.A1.2", "description": "Nêu được rằng AI có thể mô phỏng hoặc nhận diện cảm xúc của con người, chứ không trải nghiệm cảm xúc như con người." },
+      { "code": "1.A1.3", "description": "Nêu được rằng việc AI thể hiện cảm xúc là do con người lập trình hoặc thiết kế trước." },
+      { "code": "1.A1.4", "description": "Nêu ví dụ minh họa trợ lý ảo phản ứng lập trình sẵn." },
+      { "code": "1.A2.1", "description": "Nêu các cách mà AI thể hiện cảm xúc qua hình ảnh, giọng nói hoặc hành vi." },
+      { "code": "1.A2.2", "description": "Nhận biết và kể tên được một số sản phẩm hoặc thiết bị có sử dụng trí tuệ nhân tạo (loa thông minh, trợ lí ảo, camera nhận diện...)." },
+      { "code": "1.A2.3", "description": "Mô tả được công dụng chính của từng sản phẩm và cách AI giúp sản phẩm hoạt động thông minh hơn." }
+    ]
+  },
+  {
+    "grade": 1,
+    "strandCode": "NLb",
+    "strandName": "Đạo đức AI",
+    "standards": [
+      { "code": "1.B1.1", "description": "Nêu được một số hành vi sử dụng AI có thể gây hại cho người khác." },
+      { "code": "1.B3.1", "description": "Nhận biết được rằng không được phép sử dụng AI với mục đích làm hại người khác." },
+      { "code": "1.B3.2", "description": "Nêu được ví dụ về việc con người sử dụng AI đúng cách, vì mục đích tốt đẹp." }
+    ]
+  },
+  {
+    "grade": 1,
+    "strandCode": "NLc",
+    "strandName": "Các kĩ thuật và ứng dụng AI",
+    "standards": [
+      { "code": "1.C1.1", "description": "Nhận biết được AI trong một số ví dụ cụ thể và đơn giản về AI." },
+      { "code": "1.C1.2", "description": "Nhận diện được một số công cụ AI quen thuộc và phổ biến trên điện thoại hoặc máy tính bảng (trợ lí ảo, nhận diện khuôn mặt...)." },
+      { "code": "1.C1.3", "description": "Nhận biết được các thiết bị thông minh có các bộ phận giống với bộ phận của con người (camera là mắt, micro là tai)." },
+      { "code": "1.C1.4", "description": "Nhận biết được AI có khả năng hiểu các mệnh lệnh đơn giản của con người, trò chuyện theo kịch bản định sẵn." },
+      { "code": "1.C1.MR1", "description": "Nhận biết được AI có khả năng xử lí hình ảnh nhận được để nhận diện các đồ vật." },
+      { "code": "1.C1.MR2", "description": "Nhận biết được AI có khả năng xử lí âm thanh để phân biệt các loại âm thanh khác nhau." }
+    ]
+  },
+  {
+    "grade": 1,
+    "strandCode": "NLd",
+    "strandName": "Thiết kế hệ thống AI",
+    "standards": [
+      { "code": "1.D1.1", "description": "Nêu được ví dụ về một tình huống mà AI 'học' từ hình ảnh hoặc thông tin do con người cung cấp." },
+      { "code": "1.D1.MR1", "description": "Biết được rằng để AI trả lời đúng cần có nhiều ví dụ đúng và khác nhau để AI học." },
+      { "code": "1.D2.1", "description": "Nhận biết được rằng có loại máy thông minh chỉ làm được một việc và loại làm được nhiều việc khác nhau." }
+    ]
+  },
+  {
+    "grade": 2,
+    "strandCode": "NLa",
+    "strandName": "Tư duy lấy con người làm trung tâm",
+    "standards": [
+      { "code": "2.A1.1", "description": "Trình bày được một số tình huống trong cuộc sống mà AI có thể hỗ trợ con người hiệu quả." },
+      { "code": "2.A1.2", "description": "Trình bày tình huống không nên hoặc cần thận trọng khi sử dụng AI." },
+      { "code": "2.A1.3", "description": "Nêu được ví dụ cụ thể về tình huống cần con người giám sát AI." },
+      { "code": "2.A1.4", "description": "Nêu được ví dụ về thái độ đúng đắn khi sử dụng AI." },
+      { "code": "2.A2.1", "description": "Nêu được một số thiết bị hoặc ứng dụng trong gia đình có sử dụng AI." },
+      { "code": "2.A2.MR1", "description": "Thực hành sử dụng một số thiết bị hoặc ứng dụng có sử dụng AI với sự giám sát của giáo viên." },
+      { "code": "2.A3.1", "description": "Nhận biết mỗi lần con người tương tác là cung cấp dữ liệu cho AI học hỏi." }
+    ]
+  },
+  {
+    "grade": 2,
+    "strandCode": "NLc",
+    "strandName": "Các kĩ thuật và ứng dụng AI",
+    "standards": [
+      { "code": "2.C1.1", "description": "Giải thích được 'dữ liệu' là những ví dụ (hình ảnh, âm thanh) mà con người dùng để dạy cho AI." },
+      { "code": "2.C3.1", "description": "Dùng công cụ AI nhận diện hình ảnh, sơ lược cách AI phân loại đồ vật." }
+    ]
+  },
+  {
+    "grade": 2,
+    "strandCode": "NLd",
+    "strandName": "Thiết kế hệ thống AI",
+    "standards": [
+      { "code": "2.D1.1", "description": "Nêu được một số vấn đề đơn giản, gần gũi trong đời sống có thể áp dụng AI để giải quyết." }
+    ]
+  },
+  {
+    "grade": 3,
+    "strandCode": "NLa",
+    "strandName": "Tư duy lấy con người làm trung tâm",
+    "standards": [
+      { "code": "3.A1.1", "description": "Nhận biết được một số tình huống sử dụng AI hỗ trợ học sinh trong quá trình học tập." },
+      { "code": "3.A1.2", "description": "Nêu được cách sử dụng trợ lí học tập thông minh, ứng dụng học ngôn ngữ để hỗ trợ học tập." },
+      { "code": "3.A1.MR1", "description": "Thực hành sử dụng trợ lí học tập thông minh hỗ trợ phát âm ngôn ngữ." },
+      { "code": "3.A3.1", "description": "Nêu được một số ví dụ cụ thể về việc AI có thể sai." },
+      { "code": "3.A3.2", "description": "Trình bày được rằng khi sử dụng AI, học sinh cần kiểm tra lại kết quả với nhiều nguồn thông tin khác." }
+    ]
+  },
+  {
+    "grade": 3,
+    "strandCode": "NLc",
+    "strandName": "Các kĩ thuật và ứng dụng AI",
+    "standards": [
+      { "code": "3.C5.1", "description": "Mô tả được cấu trúc nếu... thì... trong việc giải quyết tình huống hoặc phân loại." },
+      { "code": "3.C5.4", "description": "Dùng công cụ AI nhận diện hình ảnh và ứng dụng học máy." }
+    ]
+  },
+  {
+    "grade": 4,
+    "strandCode": "NLa",
+    "strandName": "Tư duy lấy con người làm trung tâm",
+    "standards": [
+      { "code": "4.A1.1", "description": "Trình bày được một số lĩnh vực hoặc công việc cụ thể mà trí tuệ nhân tạo (AI) có thể hỗ trợ con người." },
+      { "code": "4.A1.2", "description": "Nhận biết được rằng trí tuệ nhân tạo (AI) được tạo ra để hỗ trợ con người nhưng không thể thay thế tư duy và cảm xúc con người." }
+    ]
+  },
+  {
+    "grade": 4,
+    "strandCode": "NLc",
+    "strandName": "Các kĩ thuật và ứng dụng AI",
+    "standards": [
+      { "code": "4.C2.1", "description": "Nêu được các ứng dụng của AI trong học tập và đời sống." },
+      { "code": "4.C2.MR1", "description": "Thực hành trải nghiệm một số ứng dụng AI hỗ trợ nghe và luyện phát âm trong học tập." },
+      { "code": "4.C5.MR1", "description": "Thực hiện theo từng bước các thao tác cơ bản với công cụ trải nghiệm AI trực quan dựa trên học máy (Teachable Machine...)." }
+    ]
+  },
+  {
+    "grade": 4,
+    "strandCode": "NLd",
+    "strandName": "Thiết kế hệ thống AI",
+    "standards": [
+      { "code": "4.D1.1", "description": "Nêu được một số ý tưởng ban đầu về cách AI có thể học hoặc giúp giải quyết vấn đề gần gũi với bối cảnh Việt Nam." }
+    ]
+  },
+  {
+    "grade": 5,
+    "strandCode": "NLa",
+    "strandName": "Tư duy lấy con người làm trung tâm",
+    "standards": [
+      { "code": "5.A1.1", "description": "Trình bày được rằng con người chịu trách nhiệm cuối cùng về các quyết định hoặc kết quả do AI tạo ra." },
+      { "code": "5.A2.1", "description": "Giải thích được rằng mục đích chính của AI là hỗ trợ con người chứ không thay thế vai trò con người." },
+      { "code": "5.A3.1", "description": "Trình bày được việc sử dụng AI an toàn và hiệu quả." }
+    ]
+  },
+  {
+    "grade": 5,
+    "strandCode": "NLc",
+    "strandName": "Các kĩ thuật và ứng dụng AI",
+    "standards": [
+      { "code": "5.C5.1", "description": "Dùng AI hỗ trợ hoạt động ghép/phân loại thông tin." },
+      { "code": "5.C5.2", "description": "Thực hiện được các thao tác cơ bản với công cụ trải nghiệm AI trực quan dựa trên học máy có giám sát." }
+    ]
+  },
+  {
+    "grade": 5,
+    "strandCode": "NLd",
+    "strandName": "Thiết kế hệ thống AI",
+    "standards": [
+      { "code": "5.D1.1", "description": "Mô tả được ở mức độ đơn giản về các bước cơ bản trong quá trình huấn luyện mô hình AI." }
+    ]
+  }
+]

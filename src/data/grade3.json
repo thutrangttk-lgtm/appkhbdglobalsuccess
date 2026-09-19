@@ -1,0 +1,77 @@
+{
+  "grade": 3,
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "HELLO",
+      "weeks": [1, 2],
+      "lessons": [
+        {
+          "grade": 3,
+          "week": 1,
+          "period": 1,
+          "unit": 1,
+          "unitTitle": "HELLO",
+          "lesson": 1,
+          "title": "Lesson 1 - Look, listen and repeat; Point and say; Let's talk",
+          "durationMinutes": 35,
+          "vocabulary": [
+            { "word": "hello", "pronunciation": "/həˈləʊ/", "meaning": "xin chào" },
+            { "word": "hi", "pronunciation": "/haɪ/", "meaning": "chào" },
+            { "word": "goodbye", "pronunciation": "/ˌɡʊdˈbaɪ/", "meaning": "tạm biệt" },
+            { "word": "bye", "pronunciation": "/baɪ/", "meaning": "tạm biệt" }
+          ],
+          "sentencePatterns": [
+            { "pattern": "Hello. I'm [Name].", "example": "Hello. I'm Ben." },
+            { "pattern": "Hi, [Name]. I'm [Name].", "example": "Hi, Ben. I'm Mai." }
+          ],
+          "languageSkills": ["Greeting friends", "Self-introduction"],
+          "objectives": {
+            "languageKnowledge": [
+              "Pupils can use 'Hello/Hi' to greet friends and introduce themselves with 'I'm...'",
+              "Pupils can say 'Goodbye/Bye' when leaving."
+            ],
+            "languageSkills": ["Listening to dialogue context", "Speaking self-introductions."],
+            "generalCompetences": ["Communication and collaboration."],
+            "qualities": ["Politeness and friendship."]
+          },
+          "activities": [
+            {
+              "stageName": "1. Warm-up",
+              "durationMinutes": 5,
+              "teacherActivities": ["Greet class and sing Hello song."],
+              "pupilActivities": ["Sing along with energy."],
+              "expectedOutcomes": ["Warm atmosphere."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "2. Presentation",
+              "durationMinutes": 10,
+              "teacherActivities": ["Present conversation between Ben and Mai.", "Model structures."],
+              "pupilActivities": ["Listen and repeat dialogues."],
+              "expectedOutcomes": ["Understanding greeting dialogue."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "3. Practice & Application",
+              "durationMinutes": 15,
+              "teacherActivities": ["Point and say practice.", "Role-play greeting in pairs."],
+              "pupilActivities": ["Perform role-play in pairs."],
+              "expectedOutcomes": ["Confident greeting practice."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "4. Consolidation & Homework",
+              "durationMinutes": 5,
+              "teacherActivities": ["Summarize structures.", "Assign workbook."],
+              "pupilActivities": ["Listen and take notes."],
+              "expectedOutcomes": ["Clear homework guidance."],
+              "postLessonAdjustments": ""
+            }
+          ],
+          "integrationCandidates": []
+        }
+      ]
+    }
+  ]
+}

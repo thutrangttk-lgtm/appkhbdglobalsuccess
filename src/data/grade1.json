@@ -1,0 +1,214 @@
+{
+  "grade": 1,
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "IN THE SCHOOL PLAYGROUND",
+      "weeks": [1, 2],
+      "lessons": [
+        {
+          "grade": 1,
+          "week": 1,
+          "period": 1,
+          "unit": 1,
+          "unitTitle": "IN THE SCHOOL PLAYGROUND",
+          "lesson": 1,
+          "title": "Lesson 1 - Look, listen and repeat; Point and say",
+          "durationMinutes": 35,
+          "vocabulary": [
+            { "word": "bill", "pronunciation": "/bɪl/", "meaning": "bạn Bill" },
+            { "word": "book", "pronunciation": "/bʊk/", "meaning": "quyển sách" },
+            { "word": "bike", "pronunciation": "/baɪk/", "meaning": "xe đạp" },
+            { "word": "ball", "pronunciation": "/bɔːl/", "meaning": "quả bóng" }
+          ],
+          "sentencePatterns": [
+            { "pattern": "Hi, I'm [Name].", "example": "Hi, I'm Bill." },
+            { "pattern": "Hello, I'm [Name].", "example": "Hello, I'm Ba." }
+          ],
+          "languageSkills": ["Listening to the sound /b/", "Speaking vocabulary starting with /b/", "Greeting and self-introduction"],
+          "objectives": {
+            "languageKnowledge": [
+              "By the end of the lesson, pupils will be able to pronounce the sound /b/ correctly.",
+              "Pupils can recognize and say words starting with /b/: bill, book, bike, ball.",
+              "Pupils can use 'Hi, I'm...' to introduce themselves politely."
+            ],
+            "languageSkills": [
+              "Listen and repeat the target sound and words clearly.",
+              "Point and say vocabulary items accurately."
+            ],
+            "generalCompetences": [
+              "Autonomy and self-learning: Pupils actively listen and repeat after the teacher.",
+              "Communication and cooperation: Work politely with peers during self-introduction."
+            ],
+            "qualities": [
+              "Show friendliness and respect when greeting friends."
+            ]
+          },
+          "activities": [
+            {
+              "stageName": "1. Warm-up",
+              "durationMinutes": 5,
+              "teacherActivities": [
+                "Greet the class warmly ('Hello class!').",
+                "Sing the 'Hello Song' with pupils using motion actions.",
+                "Introduce the context: In the school playground."
+              ],
+              "pupilActivities": [
+                "Respond to the teacher's greeting ('Hello teacher!').",
+                "Sing along and do actions with enthusiasm.",
+                "Look at the main textbook picture on page 6."
+              ],
+              "expectedOutcomes": [
+                "Pupils are engaged and ready for the lesson.",
+                "Pupils recognize the school playground setting."
+              ],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "2. Presentation",
+              "durationMinutes": 10,
+              "teacherActivities": [
+                "Present the letter B/b and sound /b/ on the smart board/flashcard.",
+                "Play the audio track for Activity 1 (Look, listen and repeat).",
+                "Model pronunciation of words: bill, book, bike, ball.",
+                "Check individual and group pronunciation."
+              ],
+              "pupilActivities": [
+                "Observe the flashcards and repeat sound /b/.",
+                "Listen to the audio track attentively.",
+                "Repeat words in chorus, groups, and individually."
+              ],
+              "expectedOutcomes": [
+                "Pupils pronounce /b/ correctly.",
+                "Pupils connect sound /b/ with words: bill, book, bike, ball."
+              ],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "3. Practice & Application",
+              "durationMinutes": 15,
+              "teacherActivities": [
+                "Guide Activity 2: Point and say.",
+                "Point to pictures of book, bike, ball in random order.",
+                "Organize 'Point & Say Quick Game': Teacher says word, pupils point to picture in textbook.",
+                "Guide pair practice: 'Hi, I'm [Name]'."
+              ],
+              "pupilActivities": [
+                "Point to textbook pictures and say words aloud.",
+                "Participate in the matching game actively.",
+                "Practice introducing themselves to their seatmates."
+              ],
+              "expectedOutcomes": [
+                "85%+ pupils identify and say the target words accurately.",
+                "Pupils introduce themselves confidently using 'Hi, I'm...'"
+              ],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "4. Consolidation & Homework",
+              "durationMinutes": 5,
+              "teacherActivities": [
+                "Summarize sound /b/ and 4 target words.",
+                "Praise pupils for good participation and discipline.",
+                "Remind pupils to practice saying 'bill, book, bike, ball' at home."
+              ],
+              "pupilActivities": [
+                "Repeat the sound /b/ and target words one final time.",
+                "Listen to teacher's feedback and say 'Goodbye teacher!'."
+              ],
+              "expectedOutcomes": [
+                "Pupils remember key sound and vocabulary.",
+                "Orderly lesson conclusion."
+              ],
+              "postLessonAdjustments": ""
+            }
+          ],
+          "integrationCandidates": [
+            {
+              "id": "INT-ETH-01",
+              "category": "Ethics",
+              "code": "ETH-PRIM-01",
+              "title": "Polite Communication & Gratitude",
+              "description": "Developing polite greeting habits.",
+              "suggestedActivities": ["Role-play greeting classmates with 'Hello' and 'Hi'."],
+              "requiresCodeVerification": false
+            },
+            {
+              "id": "INT-DIG-01",
+              "category": "Digital Competence",
+              "code": "DIG-PRIM-02",
+              "title": "Interactive Audio Practice",
+              "description": "Using audio track repetition.",
+              "suggestedActivities": ["Pupils listen to native audio tracks."],
+              "requiresCodeVerification": false
+            }
+          ]
+        },
+        {
+          "grade": 1,
+          "week": 1,
+          "period": 2,
+          "unit": 1,
+          "unitTitle": "IN THE SCHOOL PLAYGROUND",
+          "lesson": 2,
+          "title": "Lesson 2 - Listen and chant; Listen and tick; Look and trace",
+          "durationMinutes": 35,
+          "vocabulary": [
+            { "word": "book", "pronunciation": "/bʊk/", "meaning": "quyển sách" },
+            { "word": "bike", "pronunciation": "/baɪk/", "meaning": "xe đạp" },
+            { "word": "ball", "pronunciation": "/bɔːl/", "meaning": "quả bóng" }
+          ],
+          "sentencePatterns": [
+            { "pattern": "B, b, book. B, b, ball.", "example": "B, b, book. B, b, ball." }
+          ],
+          "languageSkills": ["Listening chant rhythm", "Tracing letter B, b"],
+          "objectives": {
+            "languageKnowledge": [
+              "Pupils can chant along with the rhythm featuring sound /b/.",
+              "Pupils can listen and tick the correct picture (book/ball/bike).",
+              "Pupils can trace the letter B, b correctly."
+            ],
+            "languageSkills": ["Listening comprehension", "Motor writing skills for letter B"],
+            "generalCompetences": ["Autonomy in tracing letters neatly."],
+            "qualities": ["Perseverance in handwriting."]
+          },
+          "activities": [
+            {
+              "stageName": "1. Warm-up",
+              "durationMinutes": 5,
+              "teacherActivities": ["Review /b/ words using flashcards."],
+              "pupilActivities": ["Call out words quickly."],
+              "expectedOutcomes": ["Pupils recall previous lesson vocabulary."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "2. Presentation",
+              "durationMinutes": 10,
+              "teacherActivities": ["Play chant audio track twice.", "Demonstrate rhythm clapping."],
+              "pupilActivities": ["Listen and clap hands to the rhythm."],
+              "expectedOutcomes": ["Pupils internalize rhythm and pronunciation."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "3. Practice & Application",
+              "durationMinutes": 15,
+              "teacherActivities": ["Guide 'Listen and tick'.", "Demonstrate tracing B, b on board."],
+              "pupilActivities": ["Listen to audio and tick textbook.", "Trace letters B, b in workbooks."],
+              "expectedOutcomes": ["Correct ticks in textbook.", "Neat letter B tracing."],
+              "postLessonAdjustments": ""
+            },
+            {
+              "stageName": "4. Consolidation & Homework",
+              "durationMinutes": 5,
+              "teacherActivities": ["Check pupils' tracing work.", "Wrap up lesson."],
+              "pupilActivities": ["Show traced work to teacher."],
+              "expectedOutcomes": ["Positive reinforcement for pupils."],
+              "postLessonAdjustments": ""
+            }
+          ],
+          "integrationCandidates": []
+        }
+      ]
+    }
+  ]
+}
