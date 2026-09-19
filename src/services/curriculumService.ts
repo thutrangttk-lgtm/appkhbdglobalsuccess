@@ -79,7 +79,7 @@ export class CurriculumService {
     if (!targetUnit || !targetUnit.lessons) return [];
 
     return targetUnit.lessons.map((l) => ({
-      lesson: l.lesson,
+      lesson: l.lesson ?? 0,
       title: l.title,
     }));
   }
