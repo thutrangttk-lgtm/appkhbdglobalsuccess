@@ -246,6 +246,7 @@ Selected Integrations: ${JSON.stringify(selectedIntegrations)}
           'Autonomy and self-learning: Active participation in learning activities.',
           'Communication and cooperation: Effective pairwork and group interaction.',
           'Qualities: Friendliness, responsibility, and perseverance in class.',
+          'Thereby contributing to the development of pupils\' general competences and qualities such as autonomy, communication and cooperation.'
         ],
         integrations: activeIntegrations,
       },
