@@ -1,6 +1,6 @@
 import React from 'react';
 import { LessonData } from '../../types/curriculum';
-import { BookOpen, Key, MessageSquare, Target, Clock, ShieldCheck, Eye, Layers } from 'lucide-react';
+import { BookOpen, Key, MessageSquare, Target, Clock, ShieldCheck, Eye, Layers, FileCode } from 'lucide-react';
 
 interface LessonInfoCardProps {
   lessonData: LessonData | null;
@@ -17,15 +17,21 @@ export const LessonInfoCard: React.FC<LessonInfoCardProps> = ({
         <div className="w-12 h-12 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center mx-auto font-bold text-xl">
           !
         </div>
-        <h3 className="font-bold text-slate-800 text-base">Chưa có dữ liệu PPCT xác minh cho bài học này.</h3>
+        <h3 className="font-bold text-slate-800 text-base">Chưa có dữ liệu nguồn được xác minh cho tiết này.</h3>
         <p className="text-xs text-slate-600 max-w-md mx-auto">
-          Vui lòng chọn Khối Lớp (Grade 1–5), Tuần (Week 1–35) và Tiết dạy (Period) tương ứng từ Khung Phân phân phối chương trình chính thức.
+          Vui lòng chọn Khối Lớp (Grade 1–5), Tuần (Week 1–35) và Tiết dạy (Period) tương ứng từ Khung Phân Phối Chương Trình chính thức.
         </p>
       </div>
     );
   }
 
-  // Parse objectives if object or array
+  // Determine section header text based on flexible content type
+  const isUnitLesson = lessonData.unit !== undefined && lessonData.lesson !== undefined;
+  const headerTitle = isUnitLesson
+    ? `Unit ${lessonData.unit}: ${lessonData.unitTitle} — ${lessonData.lessonPart || `Lesson ${lessonData.lesson}`}`
+    : `${lessonData.lessonPart || lessonData.title}`;
+
+  // Parse objectives
   let objectivesList: string[] = [];
   if (Array.isArray(lessonData.objectives)) {
     objectivesList = lessonData.objectives;
@@ -55,7 +61,7 @@ export const LessonInfoCard: React.FC<LessonInfoCardProps> = ({
           </div>
           <h2 className="text-lg font-bold text-white tracking-tight flex items-center gap-2">
             <BookOpen className="w-5 h-5 text-blue-400" />
-            Unit {lessonData.unit}: {lessonData.unitTitle} — {lessonData.title}
+            {headerTitle}
           </h2>
         </div>
 
@@ -68,10 +74,18 @@ export const LessonInfoCard: React.FC<LessonInfoCardProps> = ({
         </button>
       </div>
 
-      {/* Main Grid Info */}
+      {/* Main Grid Info (Section 4) */}
       <div className="p-6 space-y-6">
-        {/* Basic Meta Summary */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200/80 text-xs">
+        <div className="flex items-center justify-between border-b border-slate-100 pb-2">
+          <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-800 flex items-center gap-2">
+            <Layers className="w-4 h-4 text-blue-600" />
+            THÔNG TIN BÀI DẠY (LESSON INFORMATION)
+          </h3>
+          <span className="text-xs font-mono text-slate-500">Tiết dạy chính: Tiết {lessonData.period}</span>
+        </div>
+
+        {/* Dynamic Fields Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 bg-slate-50 p-4 rounded-xl border border-slate-200/80 text-xs">
           <div>
             <span className="text-slate-500 font-medium block">Khối Lớp (Grade):</span>
             <span className="font-extrabold text-slate-900 text-sm">Lớp {lessonData.grade}</span>
@@ -80,10 +94,36 @@ export const LessonInfoCard: React.FC<LessonInfoCardProps> = ({
             <span className="text-slate-500 font-medium block">Tuần / Tiết:</span>
             <span className="font-extrabold text-slate-900 text-sm">Tuần {lessonData.week} — Tiết {lessonData.period}</span>
           </div>
-          <div>
-            <span className="text-slate-500 font-medium block">Bài học (Unit & Lesson):</span>
-            <span className="font-extrabold text-slate-900 text-sm">Unit {lessonData.unit} ({lessonData.lessonPart || `Lesson ${lessonData.lesson}`})</span>
+
+          {isUnitLesson ? (
+            <>
+              <div>
+                <span className="text-slate-500 font-medium block">Unit:</span>
+                <span className="font-extrabold text-slate-900 text-sm">Unit {lessonData.unit}: {lessonData.unitTitle}</span>
+              </div>
+              <div>
+                <span className="text-slate-500 font-medium block">Lesson:</span>
+                <span className="font-extrabold text-slate-900 text-sm">{lessonData.lessonPart || `Lesson ${lessonData.lesson}`}</span>
+              </div>
+            </>
+          ) : (
+            <>
+              <div>
+                <span className="text-slate-500 font-medium block">Phân loại (Type):</span>
+                <span className="font-extrabold text-indigo-900 text-sm">{lessonData.contentType || lessonData.lessonPart || 'Special Section'}</span>
+              </div>
+              <div>
+                <span className="text-slate-500 font-medium block">Tiêu đề (Title):</span>
+                <span className="font-extrabold text-slate-900 text-sm">{lessonData.lessonPart || lessonData.title}</span>
+              </div>
+            </>
+          )}
+
+          <div className="col-span-1 md:col-span-2">
+            <span className="text-slate-500 font-medium block">Nội dung bài dạy (Lesson Title / Content):</span>
+            <span className="font-bold text-slate-800 text-xs leading-relaxed">{lessonData.title}</span>
           </div>
+
           <div>
             <span className="text-slate-500 font-medium block">Thời lượng (Duration):</span>
             <span className="font-extrabold text-blue-700 text-sm flex items-center gap-1">
