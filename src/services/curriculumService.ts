@@ -113,7 +113,16 @@ export class CurriculumService {
   }
 
   public static getCurriculumStats() {
-    const statsByGrade: Record<number, { loadedWeeks: number; totalPeriods: number; source: string; status: 'ok' | 'warning' | 'error' }> = {};
+    const statsByGrade: Record<number, {
+      loadedWeeks: number;
+      totalPeriods: number;
+      source: string;
+      sourceStatus: 'loaded' | 'unavailable';
+      completionStatus: 'complete' | 'incomplete' | 'no_source';
+      percentage: number;
+    }> = {};
+
+    let totalExtractedWeeks = 0;
 
     [1, 2, 3, 4, 5].forEach((g) => {
       const gData = curriculumDatabase[g];
@@ -127,16 +136,31 @@ export class CurriculumService {
           });
         });
       }
+      const loadedWeeks = weekSet.size;
+      totalExtractedWeeks += loadedWeeks;
+      const sourceStatus: 'loaded' | 'unavailable' = gData ? 'loaded' : 'unavailable';
+      const completionStatus: 'complete' | 'incomplete' | 'no_source' = loadedWeeks === 35 ? 'complete' : loadedWeeks > 0 ? 'incomplete' : 'no_source';
+      const percentage = Math.round((loadedWeeks / 35) * 100);
+
       statsByGrade[g] = {
-        loadedWeeks: weekSet.size,
+        loadedWeeks,
         totalPeriods: periodCount,
         source: gData?.source || `PPCT Grade ${g}`,
-        status: weekSet.size === 35 ? 'ok' : weekSet.size > 0 ? 'warning' : 'error',
+        sourceStatus,
+        completionStatus,
+        percentage,
       };
     });
 
+    const totalGradeWeeksExpected = 175; // 5 grades * 35 weeks
+    const overallPercentage = Math.round((totalExtractedWeeks / totalGradeWeeksExpected) * 1000) / 10;
+
     return {
       grades: statsByGrade,
+      totalExtractedWeeks,
+      totalGradeWeeksExpected,
+      overallPercentage,
+      isOverallComplete: totalExtractedWeeks === totalGradeWeeksExpected,
       aiLiteracyCodesLoaded: aiLiteracyData.length,
       digitalCompetenceCodesLoaded: digitalCompetenceData.length,
       otherIntegrationsLoaded: otherIntegrationsData.length,
