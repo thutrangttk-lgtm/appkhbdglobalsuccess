@@ -1,0 +1,65 @@
+[
+  {
+    "type": "Đạo đức",
+    "code": "ETH-PRIM-01",
+    "name": "Giáo dục Đạo đức - Lịch sự & Tôn trọng",
+    "description": "Rèn thái độ lịch sự, tự giác và tôn trọng người khác khi thực hành giao tiếp Tiếng Anh và làm việc nhóm.",
+    "applicableGrades": [1, 2, 3, 4, 5],
+    "source": "PPCT Tiếng Anh 2026-2027",
+    "sourceReference": "PPCT Tiếng Anh Global Success 2026-2027"
+  },
+  {
+    "type": "Bảo vệ môi trường",
+    "code": "BVMT-PRIM-01",
+    "name": "Giáo dục Bảo vệ Môi trường",
+    "description": "Liên hệ ý thức bảo vệ môi trường, giữ gìn nguồn nước, giữ gìn thiên nhiên qua các từ vựng chủ đề động vật, công viên, biển, nông trại.",
+    "applicableGrades": [1, 2, 3, 4, 5],
+    "source": "PPCT Tiếng Anh 2026-2027",
+    "sourceReference": "PPCT Tiếng Anh Global Success 2026-2027"
+  },
+  {
+    "type": "An toàn giao thông",
+    "code": "ATGT-PRIM-01",
+    "name": "Giáo dục An toàn Giao thông",
+    "description": "Liên hệ an toàn khi đi lại và tham gia giao thông qua chính các từ vựng phương tiện giao thông và đường phố trong SGK.",
+    "applicableGrades": [1, 2, 3, 4, 5],
+    "source": "PPCT Tiếng Anh 2026-2027",
+    "sourceReference": "PPCT Tiếng Anh Global Success 2026-2027"
+  },
+  {
+    "type": "STEM",
+    "code": "STEM-PRIM-01",
+    "name": "Giáo dục STEM / STEAM",
+    "description": "Tổ chức hoạt động quan sát, ghép hoặc phân loại đơn giản với hình ảnh/thẻ từ theo thuộc tính hoặc khám phá mô hình khoa học.",
+    "applicableGrades": [1, 2, 3, 4, 5],
+    "source": "PPCT Tiếng Anh 2026-2027",
+    "sourceReference": "PPCT Tiếng Anh Global Success 2026-2027"
+  },
+  {
+    "type": "Giáo dục địa phương",
+    "code": "GDĐP-PRIM-01",
+    "name": "Giáo dục Địa phương",
+    "description": "Mở rộng liên hệ đến danh lam thắng cảnh, di tích và đặc sản nổi tiếng của Việt Nam trong bài dạy.",
+    "applicableGrades": [1, 2, 3, 4, 5],
+    "source": "PPCT Tiếng Anh 2026-2027",
+    "sourceReference": "PPCT Tiếng Anh Global Success 2026-2027"
+  },
+  {
+    "type": "Quyền trẻ em",
+    "code": "RIGHTS-PRIM-01",
+    "name": "Giáo dục Quyền Con người & Quyền Trẻ em",
+    "description": "Liên hệ quyền trẻ em phù hợp với bối cảnh bài học, hoạt động ngôn ngữ giữ đúng nội dung SGK.",
+    "applicableGrades": [1, 2, 3, 4, 5],
+    "source": "PPCT Tiếng Anh 2026-2027",
+    "sourceReference": "PPCT Tiếng Anh Global Success 2026-2027"
+  },
+  {
+    "type": "An ninh quốc phòng",
+    "code": "ANQP-PRIM-01",
+    "name": "Giáo dục An ninh Quốc phòng & Tinh thần Đoàn kết",
+    "description": "Rèn tinh thần đoàn kết, ý thức tập thể thông qua việc tích cực tham gia trò chơi tập thể.",
+    "applicableGrades": [1, 2, 3, 4, 5],
+    "source": "PPCT Tiếng Anh 2026-2027",
+    "sourceReference": "PPCT Tiếng Anh Global Success 2026-2027"
+  }
+]
