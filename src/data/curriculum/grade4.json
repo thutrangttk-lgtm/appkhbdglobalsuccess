@@ -1,0 +1,114 @@
+{
+  "grade": 4,
+  "totalWeeks": 35,
+  "totalPeriods": 140,
+  "source": "PPCT Tiếng Anh Lớp 4 Global Success 2026-2027",
+  "sourceFile": "/raw-documents/1_curriculum_ppct_global_success_2026_2027.md",
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "My friends",
+      "weeks": [1, 2],
+      "lessons": [
+        {
+          "grade": 4, "week": 2, "period": 7, "unit": 1, "unitTitle": "My friends", "lesson": 2, "lessonPart": "Lesson 2", "title": "Lesson 2 - Look, listen and repeat; Point and say; Let's talk", "duration": 35,
+          "vocabulary": [{ "word": "America", "pronunciation": "/əˈmer.ɪ.kə/", "meaning": "Mỹ" }, { "word": "Australia", "pronunciation": "/ɒsˈtreɪ.li.ə/", "meaning": "Úc" }, { "word": "Britain", "pronunciation": "/ˈbrɪt.ən/", "meaning": "Anh" }, { "word": "Japan", "pronunciation": "/dʒəˈpæn/", "meaning": "Nhật Bản" }, { "word": "Malaysia", "pronunciation": "/məˈleɪ.ʒə/", "meaning": "Malaysia" }],
+          "sentencePatterns": [{ "pattern": "Where is he/she from? - He/She is from [Country].", "example": "Where is she from? - She is from Japan." }],
+          "languageSkills": ["Asking origin of friends"],
+          "objectives": ["Ask 'Where is he/she from?'", "Identify country names."],
+          "integrations": [{ "type": "AI Literacy", "code": "4.C2.1", "name": "AI nhận diện hình ảnh quốc kỳ", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'Japan', 'Malaysia', 'Singapore', 'Thailand'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "unitTitle": "Time and daily routines",
+      "weeks": [3, 4],
+      "lessons": [
+        {
+          "grade": 4, "week": 4, "period": 15, "unit": 2, "unitTitle": "Time and daily routines", "lesson": 3, "lessonPart": "Lesson 3", "title": "Lesson 3 - Listen and chant; Read and pass", "duration": 35,
+          "vocabulary": [{ "word": "fifteen", "pronunciation": "/ˌfɪfˈtiːn/", "meaning": "15" }, { "word": "forty-five", "pronunciation": "/ˌfɔː.tiˈfaɪv/", "meaning": "45" }, { "word": "get up", "pronunciation": "/ɡet ʌp/", "meaning": "Thức dậy" }, { "word": "go to bed", "pronunciation": "/ɡəʊ tu bed/", "meaning": "Đi ngủ" }],
+          "sentencePatterns": [{ "pattern": "What time do you [Routine]? - At [Time].", "example": "What time do you get up? - At six fifteen." }],
+          "languageSkills": ["Telling time & routines"],
+          "objectives": ["State time and daily routines.", "Ask 'What time do you...?'"],
+          "integrations": [{ "type": "AI Literacy", "code": "4.C2.MR1", "name": "AI hỗ trợ phát âm thời gian", "description": "Dùng công cụ AI hỗ trợ nghe và luyện phát âm 'fifteen', 'forty-five', 'get up', 'go to bed'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "unitTitle": "Things we can do",
+      "weeks": [8, 9],
+      "lessons": [
+        {
+          "grade": 4, "week": 8, "period": 29, "unit": 5, "unitTitle": "Things we can do", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "play the guitar", "pronunciation": "/pleɪ ðə ɡɪˈtɑːr/", "meaning": "Chơi ghi-ta" }, { "word": "play the piano", "pronunciation": "/pleɪ ðə piˈæn.əʊ/", "meaning": "Chơi piano" }, { "word": "ride a bike", "pronunciation": "/raɪd ə baɪk/", "meaning": "Đi xe đạp" }],
+          "sentencePatterns": [{ "pattern": "I can [Ability].", "example": "I can play the guitar." }],
+          "languageSkills": ["Abilities & talents"],
+          "objectives": ["Say play the guitar, play the piano, ride a bike.", "Express abilities with 'I can...'"],
+          "integrations": [{ "type": "AI Literacy", "code": "4.C2.1", "name": "AI nhận diện hoạt động năng khiếu", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'play the guitar', 'play the piano', 'ride a bike'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "unitTitle": "Our school facilities",
+      "weeks": [10, 11],
+      "lessons": [
+        {
+          "grade": 4, "week": 10, "period": 37, "unit": 6, "unitTitle": "Our school facilities", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "city", "pronunciation": "/ˈsɪt.i/", "meaning": "Thành phố" }, { "word": "mountains", "pronunciation": "/ˈmaʊn.tɪnz/", "meaning": "Vùng núi" }, { "word": "town", "pronunciation": "/taʊn/", "meaning": "Thị trấn" }],
+          "sentencePatterns": [{ "pattern": "Where is your school? - It's in the [Location].", "example": "Where is your school? - It's in the mountains." }],
+          "languageSkills": ["School location"],
+          "objectives": ["State school locations.", "Say city, mountains, town."],
+          "integrations": [{ "type": "AI Literacy", "code": "4.C5.MR1", "name": "AI nhận diện địa điểm trường học", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'city', 'mountains'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 11,
+      "unitTitle": "My home",
+      "weeks": [19, 20],
+      "lessons": [
+        {
+          "grade": 4, "week": 19, "period": 73, "unit": 11, "unitTitle": "My home", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "road", "pronunciation": "/rəʊd/", "meaning": "Con đường" }, { "word": "street", "pronunciation": "/striːt/", "meaning": "Đường phố" }, { "word": "live", "pronunciation": "/lɪv/", "meaning": "Sống" }],
+          "sentencePatterns": [{ "pattern": "Where do you live? - I live in [Place].", "example": "Where do you live? - I live in Green Street." }],
+          "languageSkills": ["Living places"],
+          "objectives": ["Ask 'Where do you live?'", "State home address."],
+          "integrations": [{ "type": "AI Literacy", "code": "4.D1.1", "name": "AI hỗ trợ phân loại thông tin nhà ở", "description": "Dùng AI hỗ trợ hoạt động ghép/phân loại thông tin với 'road', 'street', 'live'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 16,
+      "unitTitle": "Weather",
+      "weeks": [27, 28],
+      "lessons": [
+        {
+          "grade": 4, "week": 27, "period": 107, "unit": 16, "unitTitle": "Weather", "lesson": 1, "lessonPart": "Lesson 1", "title": "Lesson 1 - Look, listen and repeat; Point and say", "duration": 35,
+          "vocabulary": [{ "word": "sunny", "pronunciation": "/ˈsʌn.i/", "meaning": "Nắng" }, { "word": "rainy", "pronunciation": "/ˈreɪ.ni/", "meaning": "Mưa" }, { "word": "cloudy", "pronunciation": "/ˈklaʊ.di/", "meaning": "Nhiều mây" }, { "word": "weather", "pronunciation": "/ˈweð.ər/", "meaning": "Thời tiết" }],
+          "sentencePatterns": [{ "pattern": "What's the weather like today? - It's [Weather].", "example": "What's the weather like today? - It's sunny." }],
+          "languageSkills": ["Describing weather"],
+          "objectives": ["Ask 'What's the weather like?'", "Identify sunny, rainy, cloudy."],
+          "integrations": [{ "type": "AI Literacy", "code": "4.C5.MR1", "name": "AI nhận diện thời tiết", "description": "Dùng công cụ AI nhận diện hình ảnh gắn với 'sunny', 'weather', 'bakery', 'bookshop', 'cloudy', 'rainy'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    },
+    {
+      "unit": 20,
+      "unitTitle": "At summer camp",
+      "weeks": [33, 34],
+      "lessons": [
+        {
+          "grade": 4, "week": 34, "period": 135, "unit": 20, "unitTitle": "At summer camp", "lesson": 3, "lessonPart": "Lesson 3", "title": "Lesson 3 - Listen and chant; Read and complete", "duration": 35,
+          "vocabulary": [{ "word": "campfire", "pronunciation": "/ˈkæmp.faɪər/", "meaning": "Lửa trại" }, { "word": "dancing", "pronunciation": "/ˈdɑːn.sɪŋ/", "meaning": "Nhảy múa" }, { "word": "tug of war", "pronunciation": "/tʌɡ əv wɔːr/", "meaning": "Kéo co" }],
+          "sentencePatterns": [{ "pattern": "What are they doing at summer camp? - They're [Activity].", "example": "What are they doing? - They're dancing around the campfire." }],
+          "languageSkills": ["Summer camp activities"],
+          "objectives": ["Identify campfire, dancing, tug of war.", "Describe camp activities."],
+          "integrations": [{ "type": "AI Literacy", "code": "4.C2.1", "name": "AI luyện nghe nói trại hè", "description": "Gợi ý bám SGK: dùng AI hỗ trợ nhận biết, luyện nghe/nói với 'building a campfire', 'dancing around the campfire'.", "source": "Decision 2422/QĐ-BGDĐT" }]
+        }
+      ]
+    }
+  ]
+}
