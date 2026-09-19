@@ -165,9 +165,15 @@ export const TeacherDashboard: React.FC<TeacherDashboardProps> = ({
               <Sparkles className="w-3.5 h-3.5 text-amber-300" />
               AI LESSON PLAN STUDIO • CÔNG VĂN 2345/BGDĐT
             </span>
-            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs font-bold">
-              ✓ Nguồn PPCT Lớp 1-5 Đã Tải (35 Tuần)
-            </span>
+            {CurriculumService.getCurriculumStats().isOverallComplete ? (
+              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs font-bold">
+                ✓ PPCT Data: 175/175 Grade-Weeks Complete (100%)
+              </span>
+            ) : (
+              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-400/30 text-amber-300 text-xs font-bold">
+                ⚠ PPCT Data: {CurriculumService.getCurriculumStats().totalExtractedWeeks}/175 Grade-Weeks Extracted ({CurriculumService.getCurriculumStats().overallPercentage}%)
+              </span>
+            )}
           </div>
 
           <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-white">
